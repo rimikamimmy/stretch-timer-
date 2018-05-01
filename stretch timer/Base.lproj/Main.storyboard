@@ -322,10 +322,18 @@
                                     <segue destination="BYZ-38-t0r" kind="presentation" id="LXf-mC-Bz7"/>
                                 </connections>
                             </button>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NzR-Pn-TtB" customClass="BarChartView" customModule="Charts">
+                                <rect key="frame" x="67" y="207" width="240" height="253"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="0.76275791660000003" green="1" blue="0.75138721249999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="bgx-Fy-cVH"/>
                     </view>
+                    <connections>
+                        <outlet property="BarChartView" destination="NzR-Pn-TtB" id="Rlu-Qh-aiU"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tnf-yc-BKs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

@@ -53,7 +53,7 @@ class ProfileViewController: UIViewController {
         food2textField.placeholder = "テキストを入力"
         food3textField.placeholder = "テキストを入力"
         
-    
+        
         
         
         
@@ -72,44 +72,44 @@ class ProfileViewController: UIViewController {
         
         
         if saveData.object(forKey: "age") != nil{
-            agetextField.text = saveData.object(forKey: "age") as! String
+            agetextField.text = saveData.object(forKey: "age") as? String
         }
         
         if saveData.object(forKey: "height") != nil{
-            heighttextFiled.text = saveData.object(forKey: "height") as! String
+            heighttextFiled.text = (saveData.object(forKey: "height") as! String)
         }
         
         if saveData.object(forKey: "weight") != nil{
-            weighttextField.text = saveData.object(forKey: "weight") as! String
+            weighttextField.text = (saveData.object(forKey: "weight") as! String)
         }
         
         if saveData.object(forKey: "food1") != nil{
-            food1textField.text = saveData.object(forKey: "food1") as! String
+            food1textField.text = (saveData.object(forKey: "food1") as! String)
         }
         
         if saveData.object(forKey: "food2") != nil{
-            food2textField.text = saveData.object(forKey: "food2") as! String
+            food2textField.text = (saveData.object(forKey: "food2") as! String)
         }
         
         if saveData.object(forKey: "food3") != nil{
-            food3textField.text = saveData.object(forKey: "food3") as! String
+            food3textField.text = (saveData.object(forKey: "food3") as! String)
         }
         
         
-//        override func didReceiveMemoryWarning() {
-//            super.didReceiveMemoryWarning()
-//
-//            func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-//
-//
-//                textField.resignFirstResponder()
-//                return true
-//            }
-//
-//        }
-//
-//
-//
+        func didReceiveMemoryWarning() {
+            super.didReceiveMemoryWarning()
+            
+            func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+                
+                
+                textField.resignFirstResponder()
+                return true
+            }
+            
+        }
+        
+        
+        
         
     }
     

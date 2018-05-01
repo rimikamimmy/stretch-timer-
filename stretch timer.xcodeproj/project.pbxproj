@@ -18,6 +18,9 @@
 		8425739920931A3900CCFB7F /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8425739820931A3900CCFB7F /* ProfileViewController.swift */; };
 		842573D52093409000CCFB7F /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842573D42093409000CCFB7F /* TimerViewController.swift */; };
 		8425744B20944A9200CCFB7F /* GraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8425744A20944A9200CCFB7F /* GraphViewController.swift */; };
+		983E2C863B2CA21727670B0A /* Pods_stretch_timerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76F0CC95096946E02F8FDBBE /* Pods_stretch_timerUITests.framework */; };
+		D335208ADC61233FFBB7B994 /* Pods_stretch_timer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4073D01A26FA622D2225C400 /* Pods_stretch_timer.framework */; };
+		E94CB890285C2F67385FBFD8 /* Pods_stretch_timerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 252060E44FB6C0985783DDD6 /* Pods_stretch_timerTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		252060E44FB6C0985783DDD6 /* Pods_stretch_timerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_stretch_timerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4073D01A26FA622D2225C400 /* Pods_stretch_timer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_stretch_timer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76F0CC95096946E02F8FDBBE /* Pods_stretch_timerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_stretch_timerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		840C15D22090523200715A95 /* stretch timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "stretch timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		840C15D52090523200715A95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		840C15D72090523200715A95 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -55,6 +61,12 @@
 		8425739820931A3900CCFB7F /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		842573D42093409000CCFB7F /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
 		8425744A20944A9200CCFB7F /* GraphViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphViewController.swift; sourceTree = "<group>"; };
+		85AA92F78695BEBD12C86F8F /* Pods-stretch timer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stretch timer.release.xcconfig"; path = "Pods/Target Support Files/Pods-stretch timer/Pods-stretch timer.release.xcconfig"; sourceTree = "<group>"; };
+		A754E25EBD3D0D8E6509A3BB /* Pods-stretch timerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stretch timerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-stretch timerTests/Pods-stretch timerTests.release.xcconfig"; sourceTree = "<group>"; };
+		C03206369B915281E234EE2B /* Pods-stretch timerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stretch timerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-stretch timerUITests/Pods-stretch timerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C3C02A727891B1266ECDCF31 /* Pods-stretch timerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stretch timerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-stretch timerUITests/Pods-stretch timerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CF775C5FA1345B350B3AB14B /* Pods-stretch timerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stretch timerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-stretch timerTests/Pods-stretch timerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D1AB5D1617D2BA5E4DD70B15 /* Pods-stretch timer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stretch timer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-stretch timer/Pods-stretch timer.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D335208ADC61233FFBB7B994 /* Pods_stretch_timer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E94CB890285C2F67385FBFD8 /* Pods_stretch_timerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				983E2C863B2CA21727670B0A /* Pods_stretch_timerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +104,8 @@
 				840C15E92090523200715A95 /* stretch timerTests */,
 				840C15F42090523200715A95 /* stretch timerUITests */,
 				840C15D32090523200715A95 /* Products */,
+				DFEB13B7E5DE9FF6F70C3299 /* Pods */,
+				F0001E143618227FD1DC7D38 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -137,6 +154,29 @@
 			path = "stretch timerUITests";
 			sourceTree = "<group>";
 		};
+		DFEB13B7E5DE9FF6F70C3299 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D1AB5D1617D2BA5E4DD70B15 /* Pods-stretch timer.debug.xcconfig */,
+				85AA92F78695BEBD12C86F8F /* Pods-stretch timer.release.xcconfig */,
+				CF775C5FA1345B350B3AB14B /* Pods-stretch timerTests.debug.xcconfig */,
+				A754E25EBD3D0D8E6509A3BB /* Pods-stretch timerTests.release.xcconfig */,
+				C3C02A727891B1266ECDCF31 /* Pods-stretch timerUITests.debug.xcconfig */,
+				C03206369B915281E234EE2B /* Pods-stretch timerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F0001E143618227FD1DC7D38 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4073D01A26FA622D2225C400 /* Pods_stretch_timer.framework */,
+				252060E44FB6C0985783DDD6 /* Pods_stretch_timerTests.framework */,
+				76F0CC95096946E02F8FDBBE /* Pods_stretch_timerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,9 +184,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 840C15FA2090523200715A95 /* Build configuration list for PBXNativeTarget "stretch timer" */;
 			buildPhases = (
+				FB072660098B4619F4CAB6B2 /* [CP] Check Pods Manifest.lock */,
 				840C15CE2090523200715A95 /* Sources */,
 				840C15CF2090523200715A95 /* Frameworks */,
 				840C15D02090523200715A95 /* Resources */,
+				6BB69F4C34816909F2556E0B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -161,6 +203,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 840C15FD2090523200715A95 /* Build configuration list for PBXNativeTarget "stretch timerTests" */;
 			buildPhases = (
+				D09216F5A813EAF3C87ABE37 /* [CP] Check Pods Manifest.lock */,
 				840C15E22090523200715A95 /* Sources */,
 				840C15E32090523200715A95 /* Frameworks */,
 				840C15E42090523200715A95 /* Resources */,
@@ -179,6 +222,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 840C16002090523200715A95 /* Build configuration list for PBXNativeTarget "stretch timerUITests" */;
 			buildPhases = (
+				B511DD5B5E6F723550500EFB /* [CP] Check Pods Manifest.lock */,
 				840C15ED2090523200715A95 /* Sources */,
 				840C15EE2090523200715A95 /* Frameworks */,
 				840C15EF2090523200715A95 /* Resources */,
@@ -266,6 +310,81 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6BB69F4C34816909F2556E0B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-stretch timer/Pods-stretch timer-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-stretch timer/Pods-stretch timer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B511DD5B5E6F723550500EFB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-stretch timerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D09216F5A813EAF3C87ABE37 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-stretch timerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB072660098B4619F4CAB6B2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-stretch timer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		840C15CE2090523200715A95 /* Sources */ = {
@@ -440,6 +559,7 @@
 		};
 		840C15FB2090523200715A95 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1AB5D1617D2BA5E4DD70B15 /* Pods-stretch timer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
@@ -459,6 +579,7 @@
 		};
 		840C15FC2090523200715A95 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85AA92F78695BEBD12C86F8F /* Pods-stretch timer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
@@ -478,6 +599,7 @@
 		};
 		840C15FE2090523200715A95 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF775C5FA1345B350B3AB14B /* Pods-stretch timerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +616,7 @@
 		};
 		840C15FF2090523200715A95 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A754E25EBD3D0D8E6509A3BB /* Pods-stretch timerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,6 +633,7 @@
 		};
 		840C16012090523200715A95 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3C02A727891B1266ECDCF31 /* Pods-stretch timerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -525,6 +649,7 @@
 		};
 		840C16022090523200715A95 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C03206369B915281E234EE2B /* Pods-stretch timerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
