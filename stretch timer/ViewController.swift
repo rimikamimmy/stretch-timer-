@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet var label: UILabel!
     @IBOutlet var Profilebutton: UIButton!
     @IBOutlet var Timerbutton: UIButton!
-    @IBOutlet var graphbutton: UIButton!
+ 
     
     
     override func viewDidLoad() {

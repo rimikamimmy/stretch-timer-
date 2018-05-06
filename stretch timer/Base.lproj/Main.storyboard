@@ -18,31 +18,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tjI-i3-Dy3">
-                                <rect key="frame" x="0.0" y="164" width="375" height="83"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.76275791660000003" green="1" blue="0.75138721249999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="GRAPH">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="GRAPH">
-                                            <attributes>
-                                                <color key="NSColor" red="0.13133567905179425" green="0.68682582487309651" blue="0.22958505974917884" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <font key="NSFont" size="17" name="STHeiti"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                </state>
-                                <connections>
-                                    <segue destination="7GB-iu-dFp" kind="presentation" id="W1j-dj-ylE"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ようこそ（アプリ名）へ！" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Si-5d-rge">
-                                <rect key="frame" x="84" y="439" width="208" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aBM-gc-DDw">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="82"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -80,10 +55,37 @@
                                     <segue destination="qfm-7s-jzI" kind="presentation" id="iYa-pA-hFH"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="プロフィール.png" translatesAutoresizingMaskIntoConstraints="NO" id="CIg-F6-x74">
+                                <rect key="frame" x="51" y="11" width="61" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="タイマー.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ffn-D4-Icd">
+                                <rect key="frame" x="51" y="93" width="61" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Si-5d-rge">
+                                <rect key="frame" x="41" y="209" width="293" height="165"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.76275791660000003" green="1" blue="0.75138721249999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="ようこそSTRETCHERへ！">
+                                        <attributes>
+                                            <font key="NSFont" size="24" name="HiraginoSans-W4"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.75028938339999995" green="0.94884872229999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.76275791660000003" green="1" blue="0.75138721249999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="Profilebutton" destination="aBM-gc-DDw" id="hOO-e6-QhF"/>
+                        <outlet property="Timerbutton" destination="Wzm-TO-2vM" id="2VY-WS-hac"/>
+                        <outlet property="label" destination="8Si-5d-rge" id="Ici-vz-adX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -98,39 +100,37 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nOG-w7-Lmr">
-                                <rect key="frame" x="150" y="441" width="77" height="50"/>
+                                <rect key="frame" x="150" y="396" width="77" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <state key="normal" title="RESET">
                                     <color key="titleColor" red="1" green="0.45138399909999999" blue="0.14232108869999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="resetbuttonTapeed" destination="qfm-7s-jzI" eventType="touchUpInside" id="KN0-Te-9qW"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a20-Np-VwN">
-                                <rect key="frame" x="149" y="362" width="77" height="44"/>
+                                <rect key="frame" x="150" y="321" width="77" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.45138399909999999" blue="0.14232108869999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <state key="normal" title="START">
                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="startbuttonTapped" destination="qfm-7s-jzI" eventType="touchUpInside" id="yiz-hK-E1K"/>
+                                    <action selector="update" destination="qfm-7s-jzI" eventType="touchUpInside" id="vvT-E8-VeX"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="00:00.0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t0B-H7-ml1">
-                                <rect key="frame" x="91" y="173" width="193" height="77"/>
+                                <rect key="frame" x="26" y="173" width="333" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="29"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uXW-tz-Icv">
-                                <rect key="frame" x="150" y="524" width="77" height="52"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.45138399909999999" blue="0.14232108869999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
-                                <state key="normal" title="STOP">
-                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eqf-07-C7U">
                                 <rect key="frame" x="26" y="20" width="76" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -142,13 +142,25 @@
                                     <segue destination="BYZ-38-t0r" kind="presentation" id="S2W-FP-QAv"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uXW-tz-Icv">
+                                <rect key="frame" x="150" y="470" width="77" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.45138399909999999" blue="0.14232108869999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <state key="normal" title="STOP">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="stopbuttonTapped" destination="qfm-7s-jzI" eventType="touchUpInside" id="S0i-ku-JVE"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.95791926760000001" blue="0.84802228820000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="TG9-8Q-Ije"/>
                     </view>
                     <connections>
                         <outlet property="buttonReset" destination="nOG-w7-Lmr" id="cdF-hw-leU"/>
-                        <outlet property="buttonStart" destination="a20-Np-VwN" id="kQU-Ws-20p"/>
+                        <outlet property="buttonStart" destination="a20-Np-VwN" id="CvB-xB-89n"/>
                         <outlet property="buttonStop" destination="uXW-tz-Icv" id="QBh-Ed-1iD"/>
                         <outlet property="labelTimer" destination="t0B-H7-ml1" id="LfB-8G-Qum"/>
                     </connections>
@@ -253,10 +265,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ningen.png" translatesAutoresizingMaskIntoConstraints="NO" id="TMb-Me-5t5">
-                                <rect key="frame" x="-38" y="0.0" width="310" height="378"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G5Z-7P-X6Z">
                                 <rect key="frame" x="149" y="580" width="77" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -265,6 +273,9 @@
                                 <state key="normal" title="SAVE">
                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="saveButtonTapped" destination="UkQ-P0-lTD" eventType="touchUpInside" id="4e6-g4-EX9"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dSa-s1-zMZ">
                                 <rect key="frame" x="16" y="20" width="76" height="39"/>
@@ -277,6 +288,10 @@
                                     <segue destination="BYZ-38-t0r" kind="presentation" id="33N-ca-4ku"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="にんげん.png" translatesAutoresizingMaskIntoConstraints="NO" id="Erx-aB-Bc8">
+                                <rect key="frame" x="-49" y="19" width="315" height="356"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.76704562460000003" blue="0.84846535970000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="bG0-zC-vgH"/>
@@ -293,7 +308,8 @@
                         <outlet property="foodLabel" destination="m9P-2d-EN4" id="QQG-EQ-gi5"/>
                         <outlet property="heightLabel" destination="AwO-bs-29v" id="wTH-D1-5lt"/>
                         <outlet property="heighttextFiled" destination="ZrZ-ju-Tvy" id="m9S-FU-6HS"/>
-                        <outlet property="ningenImageView" destination="TMb-Me-5t5" id="CIs-MV-2vH"/>
+                        <outlet property="modorubutton" destination="dSa-s1-zMZ" id="VbX-h8-2NN"/>
+                        <outlet property="ningenImageView" destination="Erx-aB-Bc8" id="Ppk-Yf-n5o"/>
                         <outlet property="savebutton" destination="G5Z-7P-X6Z" id="AUx-gD-DVq"/>
                         <outlet property="weightLabel" destination="Xb7-ud-hCD" id="f1E-mc-Zqi"/>
                         <outlet property="weighttextField" destination="NOm-la-NLh" id="7Gp-6K-Xxx"/>
@@ -303,45 +319,11 @@
             </objects>
             <point key="canvasLocation" x="1592.8" y="132.68365817091455"/>
         </scene>
-        <!--Graph View Controller-->
-        <scene sceneID="VAd-Vj-IFN">
-            <objects>
-                <viewController id="7GB-iu-dFp" customClass="GraphViewController" customModule="stretch_timer" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="vl5-zN-Bna" customClass="Graph">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bGM-x1-Jla">
-                                <rect key="frame" x="16" y="20" width="79" height="42"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="もどる">
-                                    <color key="titleColor" red="0.13133567909999999" green="0.68682582489999999" blue="0.22958505970000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="presentation" id="LXf-mC-Bz7"/>
-                                </connections>
-                            </button>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NzR-Pn-TtB" customClass="BarChartView" customModule="Charts">
-                                <rect key="frame" x="67" y="207" width="240" height="253"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </view>
-                        </subviews>
-                        <color key="backgroundColor" red="0.76275791660000003" green="1" blue="0.75138721249999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="bgx-Fy-cVH"/>
-                    </view>
-                    <connections>
-                        <outlet property="BarChartView" destination="NzR-Pn-TtB" id="Rlu-Qh-aiU"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="tnf-yc-BKs" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1576.8" y="884.70764617691157"/>
-        </scene>
     </scenes>
     <resources>
-        <image name="ningen.png" width="2133" height="2133"/>
+        <image name="にんげん.png" width="2133" height="2133"/>
+        <image name="タイマー.png" width="2133" height="2133"/>
+        <image name="プロフィール.png" width="2133" height="2133"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="S2W-FP-QAv"/>

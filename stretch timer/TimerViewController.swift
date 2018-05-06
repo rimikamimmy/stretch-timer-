@@ -32,7 +32,7 @@ class TimerViewController: UIViewController {
         timer = Timer.scheduledTimer(timeInterval: 0.01, target: self, selector: #selector (self.update), userInfo: nil, repeats: true)
     }
     
-    @objc func update() {
+    @IBAction func update() {
         
         time = Date().timeIntervalSince1970 - startTime + elapsedTime
         
@@ -44,7 +44,7 @@ class TimerViewController: UIViewController {
         
         
     }
-    func stopbuttonTapped() {
+    @IBAction func stopbuttonTapped() {
         
         buttonStart.isEnabled = true
         buttonReset.isEnabled = true
@@ -57,7 +57,7 @@ class TimerViewController: UIViewController {
     }
     
     
-    func resetbuttonTapeed() {
+    @IBAction func resetbuttonTapeed() {
         
         
         elapsedTime = 0.0

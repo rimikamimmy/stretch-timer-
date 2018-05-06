@@ -14,10 +14,12 @@
 		840C15E02090523200715A95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840C15DE2090523200715A95 /* LaunchScreen.storyboard */; };
 		840C15EB2090523200715A95 /* stretch_timerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840C15EA2090523200715A95 /* stretch_timerTests.swift */; };
 		840C15F62090523200715A95 /* stretch_timerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840C15F52090523200715A95 /* stretch_timerUITests.swift */; };
-		840C16062090A4A900715A95 /* ningen.png in Resources */ = {isa = PBXBuildFile; fileRef = 840C16052090A4A900715A95 /* ningen.png */; };
 		8425739920931A3900CCFB7F /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8425739820931A3900CCFB7F /* ProfileViewController.swift */; };
 		842573D52093409000CCFB7F /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842573D42093409000CCFB7F /* TimerViewController.swift */; };
 		8425744B20944A9200CCFB7F /* GraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8425744A20944A9200CCFB7F /* GraphViewController.swift */; };
+		842574882098C09600CCFB7F /* タイマー.png in Resources */ = {isa = PBXBuildFile; fileRef = 842574872098C09600CCFB7F /* タイマー.png */; };
+		8425748C209EC27900CCFB7F /* プロフィール.png in Resources */ = {isa = PBXBuildFile; fileRef = 8425748B209EC27800CCFB7F /* プロフィール.png */; };
+		84257490209EC45700CCFB7F /* にんげん.png in Resources */ = {isa = PBXBuildFile; fileRef = 8425748F209EC45400CCFB7F /* にんげん.png */; };
 		983E2C863B2CA21727670B0A /* Pods_stretch_timerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76F0CC95096946E02F8FDBBE /* Pods_stretch_timerUITests.framework */; };
 		D335208ADC61233FFBB7B994 /* Pods_stretch_timer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4073D01A26FA622D2225C400 /* Pods_stretch_timer.framework */; };
 		E94CB890285C2F67385FBFD8 /* Pods_stretch_timerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 252060E44FB6C0985783DDD6 /* Pods_stretch_timerTests.framework */; };
@@ -57,10 +59,12 @@
 		840C15F12090523200715A95 /* stretch timerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "stretch timerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		840C15F52090523200715A95 /* stretch_timerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stretch_timerUITests.swift; sourceTree = "<group>"; };
 		840C15F72090523200715A95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		840C16052090A4A900715A95 /* ningen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ningen.png; sourceTree = "<group>"; };
 		8425739820931A3900CCFB7F /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		842573D42093409000CCFB7F /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
 		8425744A20944A9200CCFB7F /* GraphViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphViewController.swift; sourceTree = "<group>"; };
+		842574872098C09600CCFB7F /* タイマー.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "タイマー.png"; sourceTree = "<group>"; };
+		8425748B209EC27800CCFB7F /* プロフィール.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "プロフィール.png"; sourceTree = "<group>"; };
+		8425748F209EC45400CCFB7F /* にんげん.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "にんげん.png"; sourceTree = "<group>"; };
 		85AA92F78695BEBD12C86F8F /* Pods-stretch timer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stretch timer.release.xcconfig"; path = "Pods/Target Support Files/Pods-stretch timer/Pods-stretch timer.release.xcconfig"; sourceTree = "<group>"; };
 		A754E25EBD3D0D8E6509A3BB /* Pods-stretch timerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stretch timerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-stretch timerTests/Pods-stretch timerTests.release.xcconfig"; sourceTree = "<group>"; };
 		C03206369B915281E234EE2B /* Pods-stretch timerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stretch timerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-stretch timerUITests/Pods-stretch timerUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -122,7 +126,9 @@
 		840C15D42090523200715A95 /* stretch timer */ = {
 			isa = PBXGroup;
 			children = (
-				840C16052090A4A900715A95 /* ningen.png */,
+				8425748F209EC45400CCFB7F /* にんげん.png */,
+				8425748B209EC27800CCFB7F /* プロフィール.png */,
+				842574872098C09600CCFB7F /* タイマー.png */,
 				840C15D52090523200715A95 /* AppDelegate.swift */,
 				840C15D72090523200715A95 /* ViewController.swift */,
 				840C15D92090523200715A95 /* Main.storyboard */,
@@ -288,10 +294,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				840C16062090A4A900715A95 /* ningen.png in Resources */,
+				842574882098C09600CCFB7F /* タイマー.png in Resources */,
 				840C15E02090523200715A95 /* LaunchScreen.storyboard in Resources */,
+				8425748C209EC27900CCFB7F /* プロフィール.png in Resources */,
 				840C15DD2090523200715A95 /* Assets.xcassets in Resources */,
 				840C15DB2090523200715A95 /* Main.storyboard in Resources */,
+				84257490209EC45700CCFB7F /* にんげん.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
