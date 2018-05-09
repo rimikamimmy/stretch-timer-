@@ -1,0 +1,6 @@
+framework module Pods_stretch_timer {
+  umbrella header "Pods-stretch timer-umbrella.h"
+
+  export *
+  module * { export * }
+}
