@@ -48,7 +48,7 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="timer.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ffn-D4-Icd">
-                                <rect key="frame" x="0.0" y="444" width="228" height="228"/>
+                                <rect key="frame" x="4" y="444" width="228" height="228"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="profile1.png" translatesAutoresizingMaskIntoConstraints="NO" id="CIg-F6-x74">
@@ -68,6 +68,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="Profilebutton" destination="FzG-if-bB8" id="52E-ka-8wa"/>
                         <outlet property="Timerbutton" destination="Wzm-TO-2vM" id="2VY-WS-hac"/>
                         <outlet property="label" destination="8Si-5d-rge" id="Ici-vz-adX"/>
                     </connections>
