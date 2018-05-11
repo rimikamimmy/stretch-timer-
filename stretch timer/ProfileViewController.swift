@@ -105,10 +105,11 @@ class ProfileViewController: UIViewController {
         let food3 :String = food3textField.text!
         saveData.set(food3, forKey: "food3")
         
-        let alert = UIAlertController {
-            Title: "保存完了",
+        let alert = UIAlertController(
+            title: "保存完了",
+            message: "プロフィールが登録できました",
             preferredStyle : .alert
-        }
+        )
 
         alert.addAction(UIAlertAction(
             title: "OK",
