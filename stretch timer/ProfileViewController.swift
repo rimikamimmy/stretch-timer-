@@ -39,7 +39,6 @@ class ProfileViewController: UIViewController {
     
     
     
-    
     let saveData = UserDefaults.standard
     
     override func viewDidLoad() {
@@ -54,27 +53,10 @@ class ProfileViewController: UIViewController {
         food3textField.placeholder = "テキストを入力"
         
         
-        
-        
-        
-        
-    }
-    
-    
-    @IBAction func saveButtonTapped(){
-        
-        let saveData = UserDefaults.standard
-        
-        let profileArray  = saveData.array(forKey: "age")
-        
-        let textField = UITextField()
-        
-        
-        
-        
         if saveData.object(forKey: "age") != nil{
-            agetextField.text = saveData.object(forKey: "age") as? String
+            agetextField.text = (saveData.object(forKey: "age") as! String)
         }
+        
         
         if saveData.object(forKey: "height") != nil{
             heighttextFiled.text = (saveData.object(forKey: "height") as! String)
@@ -97,37 +79,78 @@ class ProfileViewController: UIViewController {
         }
         
         
-        func didReceiveMemoryWarning() {
-            super.didReceiveMemoryWarning()
+        
+    }
+  
+    
+
+    
+    @IBAction func saveWord(_ sender: Any) {
+        
+        let age :String =  agetextField.text!
+        saveData.set(age, forKey: "age")
+        
+        let height :String = heighttextFiled.text!
+        saveData.set(height, forKey: "height")
+        
+        let weight :String = weighttextField.text!
+        saveData.set(weight, forKey: "weight")
+        
+        let food1 :String = food1textField.text!
+        saveData.set(food1, forKey: "food1")
+        
+        let food2 :String = food2textField.text!
+        saveData.set(food2, forKey: "food2")
+        
+        let food3 :String = food3textField.text!
+        saveData.set(food3, forKey: "food3")
+        
+//        let alert = UIAlertController(
+//            Title: "保存完了",
+//            preferredStyle: .alert
+//        )
+//
+//        alert.addAction(UIAlertAction(
+//            title: "OK",
+//            style: .default,
+//        handler: nil
+//        ))
+
+    }
+
+    
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        
+        func textFieldShouldReturn(_ textField: UITextField) -> Bool {
             
-            func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-                
-                
-                textField.resignFirstResponder()
-                return true
-            }
             
+            textField.resignFirstResponder()
+            return true
         }
-        
-        
-        
         
     }
     
-    // Dispose of any resources that can be recreated.
-    
-    
-    
-    /*
-     // MARK: - Navigation
-     
-     // In a storyboard-based application, you will often want to do a little preparation before navigation
-     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-     // Get the new view controller using segue.destinationViewController.
-     // Pass the selected object to the new view controller.
-     }
-     */
     
     
     
 }
+
+// Dispose of any resources that can be recreated.
+
+
+
+/*
+ // MARK: - Navigation
+ 
+ // In a storyboard-based application, you will often want to do a little preparation before navigation
+ override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+ // Get the new view controller using segue.destinationViewController.
+ // Pass the selected object to the new view controller.
+ }
+ */
+
+
+
+

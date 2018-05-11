@@ -25,7 +25,7 @@ class TimerViewController: UIViewController {
     
     @IBAction func hasPauseButtonPressed(_ sender: Any) {
         startButton.isHidden = false
-        pauseButton.isHidden = true
+        pauseButton.isHidden = false
         
         StopWatchTimer.invalidate()
     
@@ -34,7 +34,7 @@ class TimerViewController: UIViewController {
     
     @IBAction func hasStartButtonPressed(_ sender: Any) {
         
-        startButton.isHidden = true
+        startButton.isHidden = false
         pauseButton.isHidden = false
         stopButton.isEnabled = true
         
@@ -44,7 +44,7 @@ class TimerViewController: UIViewController {
     
     @IBAction func hasStopButtonPressed(_ sender: Any) {
         
-        pauseButton.isHidden = true
+        pauseButton.isHidden = false
         startButton.isHidden = false
         stopButton.isEnabled = false
         
@@ -72,7 +72,7 @@ class TimerViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        pauseButton.isHidden = true
+        pauseButton.isHidden = false
         stopButton.isEnabled = false
     
         

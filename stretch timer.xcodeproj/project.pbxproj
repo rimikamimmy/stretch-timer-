@@ -15,11 +15,12 @@
 		840C15EB2090523200715A95 /* stretch_timerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840C15EA2090523200715A95 /* stretch_timerTests.swift */; };
 		840C15F62090523200715A95 /* stretch_timerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840C15F52090523200715A95 /* stretch_timerUITests.swift */; };
 		8425739920931A3900CCFB7F /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8425739820931A3900CCFB7F /* ProfileViewController.swift */; };
-		842574882098C09600CCFB7F /* タイマー.png in Resources */ = {isa = PBXBuildFile; fileRef = 842574872098C09600CCFB7F /* タイマー.png */; };
-		8425748C209EC27900CCFB7F /* プロフィール.png in Resources */ = {isa = PBXBuildFile; fileRef = 8425748B209EC27800CCFB7F /* プロフィール.png */; };
 		84257490209EC45700CCFB7F /* にんげん.png in Resources */ = {isa = PBXBuildFile; fileRef = 8425748F209EC45400CCFB7F /* にんげん.png */; };
-		8425749220A300CD00CCFB7F /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8425749120A300CD00CCFB7F /* icon.png */; };
 		8425749420A30F8800CCFB7F /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8425749320A30F8800CCFB7F /* TimerViewController.swift */; };
+		842D13F320A5148E00D929C4 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 842D13F220A5148E00D929C4 /* icon.png */; };
+		842D13FA20A54FBC00D929C4 /* profile1.png in Resources */ = {isa = PBXBuildFile; fileRef = 842D13F920A54FBA00D929C4 /* profile1.png */; };
+		842D13FC20A5512B00D929C4 /* timer.png in Resources */ = {isa = PBXBuildFile; fileRef = 842D13FB20A5512B00D929C4 /* timer.png */; };
+		847B1B2020A5A7B100FDF921 /* CAMELIAE.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 847B1B1F20A5A78D00FDF921 /* CAMELIAE.TTF */; };
 		983E2C863B2CA21727670B0A /* Pods_stretch_timerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76F0CC95096946E02F8FDBBE /* Pods_stretch_timerUITests.framework */; };
 		D335208ADC61233FFBB7B994 /* Pods_stretch_timer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4073D01A26FA622D2225C400 /* Pods_stretch_timer.framework */; };
 		E94CB890285C2F67385FBFD8 /* Pods_stretch_timerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 252060E44FB6C0985783DDD6 /* Pods_stretch_timerTests.framework */; };
@@ -60,11 +61,12 @@
 		840C15F52090523200715A95 /* stretch_timerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stretch_timerUITests.swift; sourceTree = "<group>"; };
 		840C15F72090523200715A95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8425739820931A3900CCFB7F /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
-		842574872098C09600CCFB7F /* タイマー.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "タイマー.png"; sourceTree = "<group>"; };
-		8425748B209EC27800CCFB7F /* プロフィール.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "プロフィール.png"; sourceTree = "<group>"; };
 		8425748F209EC45400CCFB7F /* にんげん.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "にんげん.png"; sourceTree = "<group>"; };
-		8425749120A300CD00CCFB7F /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		8425749320A30F8800CCFB7F /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		842D13F220A5148E00D929C4 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		842D13F920A54FBA00D929C4 /* profile1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile1.png; sourceTree = "<group>"; };
+		842D13FB20A5512B00D929C4 /* timer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timer.png; sourceTree = "<group>"; };
+		847B1B1F20A5A78D00FDF921 /* CAMELIAE.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = CAMELIAE.TTF; sourceTree = "<group>"; };
 		85AA92F78695BEBD12C86F8F /* Pods-stretch timer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stretch timer.release.xcconfig"; path = "Pods/Target Support Files/Pods-stretch timer/Pods-stretch timer.release.xcconfig"; sourceTree = "<group>"; };
 		A754E25EBD3D0D8E6509A3BB /* Pods-stretch timerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stretch timerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-stretch timerTests/Pods-stretch timerTests.release.xcconfig"; sourceTree = "<group>"; };
 		C03206369B915281E234EE2B /* Pods-stretch timerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stretch timerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-stretch timerUITests/Pods-stretch timerUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -126,10 +128,11 @@
 		840C15D42090523200715A95 /* stretch timer */ = {
 			isa = PBXGroup;
 			children = (
-				8425749120A300CD00CCFB7F /* icon.png */,
+				847B1B1F20A5A78D00FDF921 /* CAMELIAE.TTF */,
 				8425748F209EC45400CCFB7F /* にんげん.png */,
-				8425748B209EC27800CCFB7F /* プロフィール.png */,
-				842574872098C09600CCFB7F /* タイマー.png */,
+				842D13FB20A5512B00D929C4 /* timer.png */,
+				842D13F920A54FBA00D929C4 /* profile1.png */,
+				842D13F220A5148E00D929C4 /* icon.png */,
 				840C15D52090523200715A95 /* AppDelegate.swift */,
 				840C15D72090523200715A95 /* ViewController.swift */,
 				840C15D92090523200715A95 /* Main.storyboard */,
@@ -294,13 +297,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				842574882098C09600CCFB7F /* タイマー.png in Resources */,
-				8425749220A300CD00CCFB7F /* icon.png in Resources */,
+				847B1B2020A5A7B100FDF921 /* CAMELIAE.TTF in Resources */,
+				842D13FA20A54FBC00D929C4 /* profile1.png in Resources */,
+				842D13F320A5148E00D929C4 /* icon.png in Resources */,
 				840C15E02090523200715A95 /* LaunchScreen.storyboard in Resources */,
-				8425748C209EC27900CCFB7F /* プロフィール.png in Resources */,
 				840C15DD2090523200715A95 /* Assets.xcassets in Resources */,
 				840C15DB2090523200715A95 /* Main.storyboard in Resources */,
 				84257490209EC45700CCFB7F /* にんげん.png in Resources */,
+				842D13FC20A5512B00D929C4 /* timer.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
