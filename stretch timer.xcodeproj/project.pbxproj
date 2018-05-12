@@ -21,6 +21,13 @@
 		842D13FA20A54FBC00D929C4 /* profile1.png in Resources */ = {isa = PBXBuildFile; fileRef = 842D13F920A54FBA00D929C4 /* profile1.png */; };
 		842D13FC20A5512B00D929C4 /* timer.png in Resources */ = {isa = PBXBuildFile; fileRef = 842D13FB20A5512B00D929C4 /* timer.png */; };
 		847B1B2020A5A7B100FDF921 /* CAMELIAE.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 847B1B1F20A5A78D00FDF921 /* CAMELIAE.TTF */; };
+		847B1B9820A6BFDC00FDF921 /* MAN.png in Resources */ = {isa = PBXBuildFile; fileRef = 847B1B9720A6BFDC00FDF921 /* MAN.png */; };
+		847B1B9A20A6C10D00FDF921 /* 女.png in Resources */ = {isa = PBXBuildFile; fileRef = 847B1B9920A6C10C00FDF921 /* 女.png */; };
+		847B1B9C20A6C24200FDF921 /* genderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847B1B9B20A6C24200FDF921 /* genderViewController.swift */; };
+		847B1B9E20A6CDEA00FDF921 /* timer2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847B1B9D20A6CDEA00FDF921 /* timer2ViewController.swift */; };
+		847B1BA020A6D13800FDF921 /* timerselectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847B1B9F20A6D13800FDF921 /* timerselectViewController.swift */; };
+		847B1BA720A6D66600FDF921 /* Summer Font Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 847B1BA620A6D66500FDF921 /* Summer Font Light.otf */; };
+		847B1BA920A6D78800FDF921 /* timer3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847B1BA820A6D78800FDF921 /* timer3ViewController.swift */; };
 		983E2C863B2CA21727670B0A /* Pods_stretch_timerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76F0CC95096946E02F8FDBBE /* Pods_stretch_timerUITests.framework */; };
 		D335208ADC61233FFBB7B994 /* Pods_stretch_timer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4073D01A26FA622D2225C400 /* Pods_stretch_timer.framework */; };
 		E94CB890285C2F67385FBFD8 /* Pods_stretch_timerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 252060E44FB6C0985783DDD6 /* Pods_stretch_timerTests.framework */; };
@@ -67,6 +74,13 @@
 		842D13F920A54FBA00D929C4 /* profile1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile1.png; sourceTree = "<group>"; };
 		842D13FB20A5512B00D929C4 /* timer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timer.png; sourceTree = "<group>"; };
 		847B1B1F20A5A78D00FDF921 /* CAMELIAE.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = CAMELIAE.TTF; sourceTree = "<group>"; };
+		847B1B9720A6BFDC00FDF921 /* MAN.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MAN.png; sourceTree = "<group>"; };
+		847B1B9920A6C10C00FDF921 /* 女.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "女.png"; sourceTree = "<group>"; };
+		847B1B9B20A6C24200FDF921 /* genderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = genderViewController.swift; sourceTree = "<group>"; };
+		847B1B9D20A6CDEA00FDF921 /* timer2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timer2ViewController.swift; sourceTree = "<group>"; };
+		847B1B9F20A6D13800FDF921 /* timerselectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timerselectViewController.swift; sourceTree = "<group>"; };
+		847B1BA620A6D66500FDF921 /* Summer Font Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Summer Font Light.otf"; sourceTree = "<group>"; };
+		847B1BA820A6D78800FDF921 /* timer3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timer3ViewController.swift; sourceTree = "<group>"; };
 		85AA92F78695BEBD12C86F8F /* Pods-stretch timer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stretch timer.release.xcconfig"; path = "Pods/Target Support Files/Pods-stretch timer/Pods-stretch timer.release.xcconfig"; sourceTree = "<group>"; };
 		A754E25EBD3D0D8E6509A3BB /* Pods-stretch timerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stretch timerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-stretch timerTests/Pods-stretch timerTests.release.xcconfig"; sourceTree = "<group>"; };
 		C03206369B915281E234EE2B /* Pods-stretch timerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stretch timerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-stretch timerUITests/Pods-stretch timerUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -129,6 +143,9 @@
 			isa = PBXGroup;
 			children = (
 				847B1B1F20A5A78D00FDF921 /* CAMELIAE.TTF */,
+				847B1BA620A6D66500FDF921 /* Summer Font Light.otf */,
+				847B1B9920A6C10C00FDF921 /* 女.png */,
+				847B1B9720A6BFDC00FDF921 /* MAN.png */,
 				8425748F209EC45400CCFB7F /* にんげん.png */,
 				842D13FB20A5512B00D929C4 /* timer.png */,
 				842D13F920A54FBA00D929C4 /* profile1.png */,
@@ -137,7 +154,11 @@
 				840C15D72090523200715A95 /* ViewController.swift */,
 				840C15D92090523200715A95 /* Main.storyboard */,
 				8425739820931A3900CCFB7F /* ProfileViewController.swift */,
+				847B1B9B20A6C24200FDF921 /* genderViewController.swift */,
+				847B1B9F20A6D13800FDF921 /* timerselectViewController.swift */,
 				8425749320A30F8800CCFB7F /* TimerViewController.swift */,
+				847B1B9D20A6CDEA00FDF921 /* timer2ViewController.swift */,
+				847B1BA820A6D78800FDF921 /* timer3ViewController.swift */,
 				840C15DC2090523200715A95 /* Assets.xcassets */,
 				840C15DE2090523200715A95 /* LaunchScreen.storyboard */,
 				840C15E12090523200715A95 /* Info.plist */,
@@ -297,7 +318,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				847B1B9820A6BFDC00FDF921 /* MAN.png in Resources */,
 				847B1B2020A5A7B100FDF921 /* CAMELIAE.TTF in Resources */,
+				847B1BA720A6D66600FDF921 /* Summer Font Light.otf in Resources */,
 				842D13FA20A54FBC00D929C4 /* profile1.png in Resources */,
 				842D13F320A5148E00D929C4 /* icon.png in Resources */,
 				840C15E02090523200715A95 /* LaunchScreen.storyboard in Resources */,
@@ -305,6 +328,7 @@
 				840C15DB2090523200715A95 /* Main.storyboard in Resources */,
 				84257490209EC45700CCFB7F /* にんげん.png in Resources */,
 				842D13FC20A5512B00D929C4 /* timer.png in Resources */,
+				847B1B9A20A6C10D00FDF921 /* 女.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,10 +428,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				847B1BA920A6D78800FDF921 /* timer3ViewController.swift in Sources */,
 				8425749420A30F8800CCFB7F /* TimerViewController.swift in Sources */,
+				847B1B9C20A6C24200FDF921 /* genderViewController.swift in Sources */,
 				8425739920931A3900CCFB7F /* ProfileViewController.swift in Sources */,
 				840C15D82090523200715A95 /* ViewController.swift in Sources */,
 				840C15D62090523200715A95 /* AppDelegate.swift in Sources */,
+				847B1BA020A6D13800FDF921 /* timerselectViewController.swift in Sources */,
+				847B1B9E20A6CDEA00FDF921 /* timer2ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
