@@ -28,6 +28,7 @@
 		847B1BA020A6D13800FDF921 /* timerselectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847B1B9F20A6D13800FDF921 /* timerselectViewController.swift */; };
 		847B1BA720A6D66600FDF921 /* Summer Font Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 847B1BA620A6D66500FDF921 /* Summer Font Light.otf */; };
 		847B1BA920A6D78800FDF921 /* timer3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847B1BA820A6D78800FDF921 /* timer3ViewController.swift */; };
+		84E78D9420A75D7800C3780A /* Profile2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E78D9320A75D7800C3780A /* Profile2ViewController.swift */; };
 		983E2C863B2CA21727670B0A /* Pods_stretch_timerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76F0CC95096946E02F8FDBBE /* Pods_stretch_timerUITests.framework */; };
 		D335208ADC61233FFBB7B994 /* Pods_stretch_timer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4073D01A26FA622D2225C400 /* Pods_stretch_timer.framework */; };
 		E94CB890285C2F67385FBFD8 /* Pods_stretch_timerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 252060E44FB6C0985783DDD6 /* Pods_stretch_timerTests.framework */; };
@@ -81,6 +82,7 @@
 		847B1B9F20A6D13800FDF921 /* timerselectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timerselectViewController.swift; sourceTree = "<group>"; };
 		847B1BA620A6D66500FDF921 /* Summer Font Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Summer Font Light.otf"; sourceTree = "<group>"; };
 		847B1BA820A6D78800FDF921 /* timer3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timer3ViewController.swift; sourceTree = "<group>"; };
+		84E78D9320A75D7800C3780A /* Profile2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile2ViewController.swift; sourceTree = "<group>"; };
 		85AA92F78695BEBD12C86F8F /* Pods-stretch timer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stretch timer.release.xcconfig"; path = "Pods/Target Support Files/Pods-stretch timer/Pods-stretch timer.release.xcconfig"; sourceTree = "<group>"; };
 		A754E25EBD3D0D8E6509A3BB /* Pods-stretch timerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stretch timerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-stretch timerTests/Pods-stretch timerTests.release.xcconfig"; sourceTree = "<group>"; };
 		C03206369B915281E234EE2B /* Pods-stretch timerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stretch timerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-stretch timerUITests/Pods-stretch timerUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -153,8 +155,9 @@
 				840C15D52090523200715A95 /* AppDelegate.swift */,
 				840C15D72090523200715A95 /* ViewController.swift */,
 				840C15D92090523200715A95 /* Main.storyboard */,
-				8425739820931A3900CCFB7F /* ProfileViewController.swift */,
 				847B1B9B20A6C24200FDF921 /* genderViewController.swift */,
+				8425739820931A3900CCFB7F /* ProfileViewController.swift */,
+				84E78D9320A75D7800C3780A /* Profile2ViewController.swift */,
 				847B1B9F20A6D13800FDF921 /* timerselectViewController.swift */,
 				8425749320A30F8800CCFB7F /* TimerViewController.swift */,
 				847B1B9D20A6CDEA00FDF921 /* timer2ViewController.swift */,
@@ -430,6 +433,7 @@
 			files = (
 				847B1BA920A6D78800FDF921 /* timer3ViewController.swift in Sources */,
 				8425749420A30F8800CCFB7F /* TimerViewController.swift in Sources */,
+				84E78D9420A75D7800C3780A /* Profile2ViewController.swift in Sources */,
 				847B1B9C20A6C24200FDF921 /* genderViewController.swift in Sources */,
 				8425739920931A3900CCFB7F /* ProfileViewController.swift in Sources */,
 				840C15D82090523200715A95 /* ViewController.swift in Sources */,
