@@ -45,12 +45,15 @@ class ProfileViewController: UIViewController {
         super.viewDidLoad()
         
         
+        
         agetextField.placeholder = "テキストを入力"
         heighttextFiled.placeholder = "テキストを入力"
         weighttextField.placeholder = "テキストを入力"
         food1textField.placeholder = "テキストを入力"
         food2textField.placeholder = "テキストを入力"
         food3textField.placeholder = "テキストを入力"
+        
+      
         
         
         if saveData.object(forKey: "age") != nil{

@@ -28,6 +28,7 @@ class timer2ViewController: UIViewController {
         
         StopWatchTimer.invalidate()
         
+        
     }
     
 
