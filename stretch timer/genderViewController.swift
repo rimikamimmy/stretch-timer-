@@ -14,6 +14,8 @@ class genderViewController: UIViewController {
     
     
     
+    
+    
     @IBOutlet var manButton: UIButton!
     @IBOutlet var womanButton: UIButton!
     

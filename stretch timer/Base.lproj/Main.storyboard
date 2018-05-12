@@ -100,13 +100,6 @@
                                     <action selector="hasPauseButtonPressed:" destination="qfm-7s-jzI" eventType="touchUpInside" id="247-v7-PEM"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AGH-jp-4dN" userLabel="MinutesLabel">
-                                <rect key="frame" x="81" y="172" width="91" height="77"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Cameliaexbold" family="Cameliaexbold" pointSize="45"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=":" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jYI-3A-tA9">
                                 <rect key="frame" x="157" y="172" width="62" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -114,6 +107,17 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eqf-07-C7U">
+                                <rect key="frame" x="16" y="41" width="109" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="もどる">
+                                    <color key="titleColor" red="1" green="0.45138399909999999" blue="0.14232108869999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="WvE-gK-JTm" kind="presentation" id="bf6-Ka-EYs"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FaO-78-PUG">
                                 <rect key="frame" x="250" y="41" width="109" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -170,17 +174,13 @@
                                     <action selector="hasStartButtonPressed:" destination="qfm-7s-jzI" eventType="touchUpInside" id="AMG-dI-LiG"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eqf-07-C7U">
-                                <rect key="frame" x="16" y="41" width="109" height="40"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AGH-jp-4dN" userLabel="MinutesLabel">
+                                <rect key="frame" x="25" y="151" width="91" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="もどる">
-                                    <color key="titleColor" red="1" green="0.45138399909999999" blue="0.14232108869999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="WvE-gK-JTm" kind="presentation" id="bf6-Ka-EYs"/>
-                                </connections>
-                            </button>
+                                <fontDescription key="fontDescription" name="Cameliaexbold" family="Cameliaexbold" pointSize="45"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.95791926760000001" blue="0.84802228820000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="TG9-8Q-Ije"/>
@@ -988,7 +988,7 @@
         <image name="女.png" width="2133" height="2133"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="HZx-Dz-osq"/>
-        <segue reference="ExI-Ve-9gy"/>
+        <segue reference="bf6-Ka-EYs"/>
+        <segue reference="iwN-fb-Cgl"/>
     </inferredMetricsTieBreakers>
 </document>
