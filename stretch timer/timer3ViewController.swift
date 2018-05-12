@@ -10,6 +10,61 @@ import UIKit
 
 class timer3ViewController: UIViewController {
 
+    var StopWatchTimer = Timer()
+    var currentTime = 0
+    
+    
+    @IBOutlet weak var minutesLabel: UILabel!
+    @IBOutlet weak var secondsLabel: UILabel!
+    @IBOutlet weak var pauseButton: UIButton!
+    @IBOutlet weak var startButton: UIButton!
+    @IBOutlet weak var stopButton: UIButton!
+    @IBOutlet weak var modoruButton: UIButton!
+    
+    
+    @IBAction func hasPauseButtonPressed(_ sender: Any) {
+        startButton.isHidden = false
+        pauseButton.isHidden = false
+        
+        StopWatchTimer.invalidate()
+    }
+    
+    @IBAction func hasStartButtonPressed(_ sender: Any) {
+        
+        startButton.isHidden = false
+        pauseButton.isHidden = false
+        stopButton.isEnabled = true
+        
+        StopWatchTimer = Timer.scheduledTimer(timeInterval: 0.05, target: self, selector: (#selector(TimerViewController.updateTime)), userInfo: nil, repeats: true)
+        
+    }
+    
+    @IBAction func hasStopButtonPressed(_ sender: Any) {
+        
+        pauseButton.isHidden = false
+        startButton.isHidden = false
+        stopButton.isEnabled = false
+        
+        currentTime = 0
+        minutesLabel.text = "0"
+        secondsLabel.text = "0"
+        
+        StopWatchTimer.invalidate()
+        
+    }
+    
+    @objc func updateTime(){
+        
+        currentTime += 1
+        minutesLabel.text = "\(currentTime / 60)"
+        secondsLabel.text = "\(currentTime % 60)"
+        
+        if currentTime == 3600{
+            currentTime = 0
+        }
+        
+        
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
