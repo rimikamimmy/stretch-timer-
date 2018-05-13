@@ -10,6 +10,9 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
+        <array key="Audrey-Normal.otf">
+            <string>Audrey-Normal</string>
+        </array>
         <array key="CAMELIAE.TTF">
             <string>Cameliaexbold</string>
         </array>
@@ -81,7 +84,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nOG-w7-Lmr" userLabel="PauseButton">
-                                <rect key="frame" x="0.0" y="478" width="186" height="189"/>
+                                <rect key="frame" x="0.0" y="497" width="186" height="170"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.99953407049999998" green="0.98835557699999999" blue="0.47265523669999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Cameliaexbold" family="Cameliaexbold" pointSize="26"/>
@@ -114,7 +117,7 @@
                                 <rect key="frame" x="250" y="41" width="109" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="ホーム画面へ">
+                                <state key="normal" title="HOMEへ">
                                     <color key="titleColor" red="1" green="0.45138399909999999" blue="0.14232108869999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
@@ -136,7 +139,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uXW-tz-Icv" userLabel="StopButton">
-                                <rect key="frame" x="185" y="478" width="190" height="189"/>
+                                <rect key="frame" x="185" y="497" width="190" height="170"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.45138399909999999" blue="0.14232108869999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Cameliaexbold" family="Cameliaexbold" pointSize="26"/>
@@ -148,14 +151,14 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5dH-rM-g7c" userLabel="SecondsLabel">
-                                <rect key="frame" x="203" y="172" width="92" height="77"/>
+                                <rect key="frame" x="203" y="176" width="92" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Cameliaexbold" family="Cameliaexbold" pointSize="45"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a20-Np-VwN" userLabel="StartButton">
-                                <rect key="frame" x="0.0" y="308" width="375" height="170"/>
+                                <rect key="frame" x="0.0" y="364" width="375" height="135"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Cameliaexbold" family="Cameliaexbold" pointSize="31"/>
@@ -167,7 +170,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AGH-jp-4dN" userLabel="MinutesLabel">
-                                <rect key="frame" x="81" y="172" width="91" height="77"/>
+                                <rect key="frame" x="81" y="176" width="91" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Cameliaexbold" family="Cameliaexbold" pointSize="45"/>
                                 <nil key="textColor"/>
@@ -188,7 +191,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ibt-9e-aM3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1743" y="1914"/>
+            <point key="canvasLocation" x="1741.5999999999999" y="1913.793103448276"/>
         </scene>
         <!--Timerselect View Controller-->
         <scene sceneID="5wY-PW-in9">
@@ -212,7 +215,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dHZ-VK-xNK" userLabel="TIMER3">
-                                <rect key="frame" x="0.0" y="269" width="375" height="97"/>
+                                <rect key="frame" x="0.0" y="450" width="375" height="97"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.75028938339999995" green="0.94884872229999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="SummerFont-Light" family="Summer Font" pointSize="53"/>
@@ -224,14 +227,16 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjt-zE-Yrv" userLabel="TIMER4">
-                                <rect key="frame" x="1" y="363" width="375" height="97"/>
+                                <rect key="frame" x="0.0" y="269" width="375" height="97"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="TIMER"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j76-gT-YUZ" userLabel="TIMER5">
-                                <rect key="frame" x="1" y="570" width="375" height="97"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Audrey-Normal" family="Audrey" pointSize="28"/>
+                                <state key="normal" title="TIMER">
+                                    <color key="titleColor" red="1" green="0.4392156862745098" blue="0.71764705882352942" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="EAJ-Sj-mdV" kind="presentation" id="tvX-ek-z8a"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="好きなタイマーを選択して下さい" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZaD-hA-VfA" userLabel="TIMER6">
                                 <rect key="frame" x="12" y="89" width="351" height="21"/>
@@ -241,7 +246,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mH3-OI-m61" userLabel="TIMER2">
-                                <rect key="frame" x="1" y="465" width="375" height="97"/>
+                                <rect key="frame" x="0.0" y="570" width="375" height="97"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.84792380140000001" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
@@ -252,6 +257,11 @@
                                     <action selector="timer2button" destination="WvE-gK-JTm" eventType="touchUpInside" id="2CP-Xl-pzK"/>
                                     <segue destination="xpM-ud-yU4" kind="presentation" id="qsn-lQ-r3Q"/>
                                 </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j76-gT-YUZ" userLabel="TIMER5">
+                                <rect key="frame" x="0.0" y="354" width="375" height="97"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.95791926760000001" blue="0.84802228820000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -673,7 +683,7 @@
                                 <rect key="frame" x="250" y="44" width="109" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="ホーム画面へ">
+                                <state key="normal" title="HOMEへ">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="0.84792380140000001" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
@@ -776,10 +786,10 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SBn-pk-cLm" userLabel="PauseButton">
                                 <rect key="frame" x="148" y="434" width="80" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.22352941176470587" green="0.43137254901960786" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="SummerFont-Light" family="Summer Font" pointSize="52"/>
                                 <state key="normal" title="PAUSE">
-                                    <color key="titleColor" red="0.22352941176470587" green="0.43137254901960786" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
@@ -840,10 +850,10 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9tC-rb-fkG" userLabel="StartButton">
                                 <rect key="frame" x="147" y="346" width="80" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.22352941176470587" green="0.43137254901960786" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="SummerFont-Light" family="Summer Font" pointSize="52"/>
                                 <state key="normal" title="START">
-                                    <color key="titleColor" red="0.22352941176470587" green="0.43137254901960786" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
@@ -859,7 +869,7 @@
                                 <rect key="frame" x="250" y="46" width="109" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="ホーム画面へ">
+                                <state key="normal" title="HOMEへ">
                                     <color key="titleColor" red="0.22352941176470587" green="0.43137254901960786" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
@@ -869,10 +879,10 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TtQ-t4-NJh" userLabel="StopButton">
                                 <rect key="frame" x="148" y="522" width="80" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.22352941176470587" green="0.43137254901960786" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="SummerFont-Light" family="Summer Font" pointSize="52"/>
                                 <state key="normal" title="STOP">
-                                    <color key="titleColor" red="0.22352941176470587" green="0.43137254901960786" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -901,95 +911,109 @@
             </objects>
             <point key="canvasLocation" x="3149.5999999999999" y="1913.793103448276"/>
         </scene>
-        <!--Timer View Controller-->
+        <!--Timer4 View Controller-->
         <scene sceneID="4Ax-KW-Woa">
             <objects>
-                <viewController id="EAJ-Sj-mdV" customClass="TimerViewController" customModule="stretch_timer" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="qGJ-vk-3Ib" customClass="TimerView">
+                <viewController id="EAJ-Sj-mdV" customClass="Timer4ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qGJ-vk-3Ib" customClass="Timer4ViewController">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IUn-Px-eBw" userLabel="PauseButton">
-                                <rect key="frame" x="147" y="362" width="80" height="80"/>
+                                <rect key="frame" x="139" y="474" width="102" height="102"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.99953407049999998" green="0.98835557699999999" blue="0.47265523669999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="Cameliaexbold" family="Cameliaexbold" pointSize="15"/>
-                                <state key="normal" title="PAUSE">
-                                    <color key="titleColor" red="1" green="0.45138399909999999" blue="0.14232108869999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.99953407049999998" green="0.98835557699999999" blue="0.47265523669999998" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Audrey-Normal" family="Audrey" pointSize="22"/>
+                                <state key="normal" title="PAUSE" backgroundImage="ハート色3.png">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="hasPauseButtonPressed:" destination="EAJ-Sj-mdV" eventType="touchUpInside" id="61a-ca-39W"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sjn-Za-buj" userLabel="MinutesLabel">
-                                <rect key="frame" x="81" y="160" width="91" height="77"/>
+                                <rect key="frame" x="81" y="213" width="91" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Cameliaexbold" family="Cameliaexbold" pointSize="45"/>
+                                <fontDescription key="fontDescription" name="Audrey-Normal" family="Audrey" pointSize="54"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=":" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CfW-Ro-kmR">
-                                <rect key="frame" x="157" y="153" width="62" height="77"/>
+                                <rect key="frame" x="157" y="213" width="62" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Cameliaexbold" family="Cameliaexbold" pointSize="22"/>
+                                <fontDescription key="fontDescription" name="Audrey-Normal" family="Audrey" pointSize="31"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4BW-K7-NhS">
-                                <rect key="frame" x="16" y="20" width="109" height="40"/>
+                                <rect key="frame" x="16" y="41" width="88" height="88"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="もどる">
-                                    <color key="titleColor" red="1" green="0.45138399909999999" blue="0.14232108869999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="もどる" backgroundImage="ハート色shiro.png">
+                                    <color key="titleColor" red="1" green="0.4392156862745098" blue="0.71764705882352942" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="WvE-gK-JTm" kind="presentation" id="QXH-bQ-0zn"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="MINUTES" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k8n-I9-yNR">
-                                <rect key="frame" x="67" y="117" width="119" height="21"/>
+                                <rect key="frame" x="67" y="171" width="119" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Cameliaexbold" family="Cameliaexbold" pointSize="12"/>
+                                <fontDescription key="fontDescription" name="Audrey-Normal" family="Audrey" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SECONDS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rYo-lc-XLx">
-                                <rect key="frame" x="187" y="117" width="123" height="21"/>
+                                <rect key="frame" x="188" y="171" width="123" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Cameliaexbold" family="Cameliaexbold" pointSize="12"/>
+                                <fontDescription key="fontDescription" name="Audrey-Normal" family="Audrey" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YmT-pE-GUX" userLabel="SecondsLabel">
-                                <rect key="frame" x="203" y="160" width="92" height="77"/>
+                                <rect key="frame" x="203" y="213" width="92" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Cameliaexbold" family="Cameliaexbold" pointSize="45"/>
+                                <fontDescription key="fontDescription" name="Audrey-Normal" family="Audrey" pointSize="54"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J91-B9-qjV" userLabel="StartButton">
-                                <rect key="frame" x="45" y="362" width="80" height="80"/>
+                                <rect key="frame" x="76" y="360" width="102" height="102"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="Cameliaexbold" family="Cameliaexbold" pointSize="16"/>
-                                <state key="normal" title="START">
-                                    <color key="titleColor" red="1" green="0.45138399909999999" blue="0.14232108869999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Audrey-Normal" family="Audrey" pointSize="22"/>
+                                <state key="normal" title="START" backgroundImage="ハート色3.png">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="hasStartButtonPressed:" destination="EAJ-Sj-mdV" eventType="touchUpInside" id="jm4-P0-XWk"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bj1-uW-wF6" userLabel="StopButton">
-                                <rect key="frame" x="253" y="363" width="80" height="80"/>
+                                <rect key="frame" x="199" y="360" width="102" height="102"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.45138399909999999" blue="0.14232108869999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="Cameliaexbold" family="Cameliaexbold" pointSize="13"/>
-                                <state key="normal" title="STOP">
-                                    <color key="titleColor" red="0.99953407049999998" green="0.98835557699999999" blue="0.47265523669999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="1" green="0.45138399909999999" blue="0.14232108869999999" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Audrey-Normal" family="Audrey" pointSize="22"/>
+                                <state key="normal" title="STOP" backgroundImage="ハート色3.png">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="hasStopButtonPressed:" destination="EAJ-Sj-mdV" eventType="touchUpInside" id="jUg-W3-b3f"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q7E-4Y-RLQ">
+                                <rect key="frame" x="271" y="41" width="88" height="88"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="HOMEへ" backgroundImage="ハート色shiro.png">
+                                    <color key="titleColor" red="1" green="0.4392156862745098" blue="0.71764705882352942" alpha="0.84792380140000001" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" id="4rP-Pr-NQF"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="0.95791926760000001" blue="0.84802228820000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.95686274509803915" green="0.70588235294117641" blue="0.81568627450980391" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="dkQ-Ya-UAl"/>
                     </view>
                     <connections>
@@ -1003,16 +1027,18 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BD2-IF-D6f" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6428" y="1656.521739130435"/>
+            <point key="canvasLocation" x="4151" y="1190"/>
         </scene>
     </scenes>
     <resources>
         <image name="MAN.png" width="2133" height="2133"/>
         <image name="にんげん.png" width="2133" height="2133"/>
+        <image name="ハート色3.png" width="2133" height="2133"/>
+        <image name="ハート色shiro.png" width="2133" height="2133"/>
         <image name="女.png" width="2133" height="2133"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="HZx-Dz-osq"/>
-        <segue reference="ExI-Ve-9gy"/>
+        <segue reference="QXH-bQ-0zn"/>
+        <segue reference="4rP-Pr-NQF"/>
     </inferredMetricsTieBreakers>
 </document>
