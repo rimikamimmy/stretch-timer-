@@ -36,6 +36,9 @@
 		84E78DA220A84F7200C3780A /* ハート色3.png in Resources */ = {isa = PBXBuildFile; fileRef = 84E78DA120A84F6F00C3780A /* ハート色3.png */; };
 		84E78DA420A8500800C3780A /* ハート色shiro.png in Resources */ = {isa = PBXBuildFile; fileRef = 84E78DA320A8500500C3780A /* ハート色shiro.png */; };
 		84E78DA620A853BF00C3780A /* timer4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E78DA520A853BF00C3780A /* timer4ViewController.swift */; };
+		84E78DA820A986FA00C3780A /* Nexa Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 84E78DA720A986F900C3780A /* Nexa Light.otf */; };
+		84E78DAA20A9889400C3780A /* Nexa Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 84E78DA920A9889100C3780A /* Nexa Bold.otf */; };
+		84E78DAC20A98F1000C3780A /* timer5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E78DAB20A98F1000C3780A /* timer5ViewController.swift */; };
 		983E2C863B2CA21727670B0A /* Pods_stretch_timerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76F0CC95096946E02F8FDBBE /* Pods_stretch_timerUITests.framework */; };
 		D335208ADC61233FFBB7B994 /* Pods_stretch_timer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4073D01A26FA622D2225C400 /* Pods_stretch_timer.framework */; };
 		E94CB890285C2F67385FBFD8 /* Pods_stretch_timerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 252060E44FB6C0985783DDD6 /* Pods_stretch_timerTests.framework */; };
@@ -97,6 +100,9 @@
 		84E78DA120A84F6F00C3780A /* ハート色3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ハート色3.png"; sourceTree = "<group>"; };
 		84E78DA320A8500500C3780A /* ハート色shiro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ハート色shiro.png"; sourceTree = "<group>"; };
 		84E78DA520A853BF00C3780A /* timer4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timer4ViewController.swift; sourceTree = "<group>"; };
+		84E78DA720A986F900C3780A /* Nexa Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nexa Light.otf"; sourceTree = "<group>"; };
+		84E78DA920A9889100C3780A /* Nexa Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nexa Bold.otf"; sourceTree = "<group>"; };
+		84E78DAB20A98F1000C3780A /* timer5ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timer5ViewController.swift; sourceTree = "<group>"; };
 		85AA92F78695BEBD12C86F8F /* Pods-stretch timer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stretch timer.release.xcconfig"; path = "Pods/Target Support Files/Pods-stretch timer/Pods-stretch timer.release.xcconfig"; sourceTree = "<group>"; };
 		A754E25EBD3D0D8E6509A3BB /* Pods-stretch timerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stretch timerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-stretch timerTests/Pods-stretch timerTests.release.xcconfig"; sourceTree = "<group>"; };
 		C03206369B915281E234EE2B /* Pods-stretch timerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stretch timerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-stretch timerUITests/Pods-stretch timerUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -159,6 +165,8 @@
 			isa = PBXGroup;
 			children = (
 				847B1B1F20A5A78D00FDF921 /* CAMELIAE.TTF */,
+				84E78DA720A986F900C3780A /* Nexa Light.otf */,
+				84E78DA920A9889100C3780A /* Nexa Bold.otf */,
 				84E78D9D20A84B9400C3780A /* Audrey-Normal.otf */,
 				84E78D9920A84B0E00C3780A /* ハート色.png */,
 				847B1BA620A6D66500FDF921 /* Summer Font Light.otf */,
@@ -183,6 +191,7 @@
 				847B1B9D20A6CDEA00FDF921 /* timer2ViewController.swift */,
 				847B1BA820A6D78800FDF921 /* timer3ViewController.swift */,
 				84E78DA520A853BF00C3780A /* timer4ViewController.swift */,
+				84E78DAB20A98F1000C3780A /* timer5ViewController.swift */,
 				840C15DC2090523200715A95 /* Assets.xcassets */,
 				840C15DE2090523200715A95 /* LaunchScreen.storyboard */,
 				840C15E12090523200715A95 /* Info.plist */,
@@ -347,6 +356,7 @@
 				847B1BA720A6D66600FDF921 /* Summer Font Light.otf in Resources */,
 				842D13FA20A54FBC00D929C4 /* profile1.png in Resources */,
 				84E78DA220A84F7200C3780A /* ハート色3.png in Resources */,
+				84E78DA820A986FA00C3780A /* Nexa Light.otf in Resources */,
 				84E78DA420A8500800C3780A /* ハート色shiro.png in Resources */,
 				842D13F320A5148E00D929C4 /* icon.png in Resources */,
 				84E78D9A20A84B0E00C3780A /* ハート色.png in Resources */,
@@ -358,6 +368,7 @@
 				84E78D9620A8472100C3780A /* ハート.png in Resources */,
 				842D13FC20A5512B00D929C4 /* timer.png in Resources */,
 				84E78DA020A84F0100C3780A /* ハート色１.png in Resources */,
+				84E78DAA20A9889400C3780A /* Nexa Bold.otf in Resources */,
 				847B1B9A20A6C10D00FDF921 /* 女.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -463,6 +474,7 @@
 				8425749420A30F8800CCFB7F /* TimerViewController.swift in Sources */,
 				84E78D9420A75D7800C3780A /* Profile2ViewController.swift in Sources */,
 				847B1B9C20A6C24200FDF921 /* genderViewController.swift in Sources */,
+				84E78DAC20A98F1000C3780A /* timer5ViewController.swift in Sources */,
 				8425739920931A3900CCFB7F /* ProfileViewController.swift in Sources */,
 				840C15D82090523200715A95 /* ViewController.swift in Sources */,
 				840C15D62090523200715A95 /* AppDelegate.swift in Sources */,

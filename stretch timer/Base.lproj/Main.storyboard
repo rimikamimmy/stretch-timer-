@@ -16,6 +16,12 @@
         <array key="CAMELIAE.TTF">
             <string>Cameliaexbold</string>
         </array>
+        <array key="Nexa Bold.otf">
+            <string>NexaBold</string>
+        </array>
+        <array key="Nexa Light.otf">
+            <string>NexaLight</string>
+        </array>
         <array key="Summer Font Light.otf">
             <string>SummerFont-Light</string>
         </array>
@@ -32,10 +38,10 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wzm-TO-2vM">
                                 <rect key="frame" x="0.0" y="454" width="375" height="213"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.95791926760000001" blue="0.84802228820000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.8980392157" green="1" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Cameliaexbold" family="Cameliaexbold" pointSize="36"/>
                                 <state key="normal" title="TIMER">
-                                    <color key="titleColor" red="1" green="0.45138399912260785" blue="0.14232108868018334" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" red="0.49930811750307369" green="0.89453125" blue="0.048592010102416754" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="WvE-gK-JTm" kind="presentation" id="ZVU-z8-m0P"/>
@@ -44,7 +50,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FzG-if-bB8">
                                 <rect key="frame" x="0.0" y="241" width="375" height="213"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.92294267330000002" blue="0.98244064050000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="1" green="0.69803921568627447" blue="0.89803921568627454" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Cameliaexbold" family="Cameliaexbold" pointSize="36"/>
                                 <state key="normal" title="Profile">
                                     <color key="titleColor" red="1" green="0.2493130013" blue="0.41430939280000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -56,13 +62,13 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome to Stretcher" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Si-5d-rge">
                                 <rect key="frame" x="41" y="95" width="293" height="86"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.93060660360000003" green="0.99467188120000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.69803921570000005" green="0.8980392157" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Cameliaexbold" family="Cameliaexbold" pointSize="29"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.93060660360000003" green="0.99467188120000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.69803921570000005" green="0.8980392157" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
@@ -193,6 +199,156 @@
             </objects>
             <point key="canvasLocation" x="1741.5999999999999" y="1913.793103448276"/>
         </scene>
+        <!--Timer5 View Controller-->
+        <scene sceneID="uEX-T6-ceT">
+            <objects>
+                <viewController id="9Qw-JO-mRy" customClass="timer5ViewController" customModule="stretch_timer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jTz-NW-P4g" customClass="timer5View">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jpe-8v-rUh" userLabel="PauseButton">
+                                <rect key="frame" x="147" y="387" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.98039215690000003" green="0.48627450979999998" blue="0.57254901960000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="NexaLight" family="Nexa Light" pointSize="22"/>
+                                <state key="normal" title="PAUSE">
+                                    <color key="titleColor" red="0.43137254899999999" green="0.76862745099999996" blue="0.84705882349999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="40"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="hasPauseButtonPressed:" destination="9Qw-JO-mRy" eventType="touchUpInside" id="ZV4-gc-a2L"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=":" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zEA-hj-oLU">
+                                <rect key="frame" x="157" y="206" width="62" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="NexaLight" family="Nexa Light" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qmc-cQ-C4O">
+                                <rect key="frame" x="16" y="41" width="109" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.43137254899999999" green="0.76862745099999996" blue="0.84705882349999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="もどる">
+                                    <color key="titleColor" red="1" green="0.96862745098039216" blue="0.75294117647058822" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="WvE-gK-JTm" kind="presentation" id="WD4-Ua-AEW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BIo-Ek-xTj">
+                                <rect key="frame" x="250" y="41" width="109" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.43137254899999999" green="0.76862745099999996" blue="0.84705882349999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="HOMEへ">
+                                    <color key="titleColor" red="1" green="0.96862745098039216" blue="0.75294117647058822" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" id="DMV-Qt-h0Q"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="MINUTES" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UU3-23-6SK">
+                                <rect key="frame" x="67" y="164" width="119" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="NexaLight" family="Nexa Light" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SECONDS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1n8-dZ-TPU">
+                                <rect key="frame" x="187" y="164" width="123" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="NexaLight" family="Nexa Light" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nJx-P9-Q9O" userLabel="SecondsLabel">
+                                <rect key="frame" x="203" y="206" width="92" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="NexaLight" family="Nexa Light" pointSize="53"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BFC-Tb-LrP" userLabel="StartButton">
+                                <rect key="frame" x="45" y="387" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.98039215686274506" green="0.48627450980392156" blue="0.5725490196078431" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="NexaLight" family="Nexa Light" pointSize="22"/>
+                                <state key="normal" title="START">
+                                    <color key="titleColor" red="0.43137254899999999" green="0.76862745099999996" blue="0.84705882349999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="40"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="hasStartButtonPressed:" destination="9Qw-JO-mRy" eventType="touchUpInside" id="yz0-sR-O8y"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Bh-yL-1nC" userLabel="MinutesLabel">
+                                <rect key="frame" x="81" y="206" width="91" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="NexaLight" family="Nexa Light" pointSize="53"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Xv-uQ-Nug" userLabel="StopButton">
+                                <rect key="frame" x="250" y="387" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.98039215690000003" green="0.48627450979999998" blue="0.57254901960000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="NexaLight" family="Nexa Light" pointSize="22"/>
+                                <state key="normal" title="STOP">
+                                    <color key="titleColor" red="0.43137254899999999" green="0.76862745099999996" blue="0.84705882349999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="40"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="hasStopButtonPressed:" destination="9Qw-JO-mRy" eventType="touchUpInside" id="TD3-Dd-POl"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.96862745098039216" blue="0.75294117647058822" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="Gjm-Re-QlM"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="keyPath" value="YES"/>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="keyPath" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <connections>
+                        <outlet property="minutesLabel" destination="0Bh-yL-1nC" id="9eX-xO-2e9"/>
+                        <outlet property="modoruButton" destination="qmc-cQ-C4O" id="SWU-7m-51P"/>
+                        <outlet property="pauseButton" destination="jpe-8v-rUh" id="h10-ss-5r6"/>
+                        <outlet property="secondsLabel" destination="nJx-P9-Q9O" id="9DX-No-EGU"/>
+                        <outlet property="startButton" destination="BFC-Tb-LrP" id="Xp3-Fi-rB6"/>
+                        <outlet property="stopButton" destination="2Xv-uQ-Nug" id="O2V-jZ-czs"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="shD-bo-G04" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2772" y="1709.5952023988007"/>
+        </scene>
         <!--Timerselect View Controller-->
         <scene sceneID="5wY-PW-in9">
             <objects>
@@ -202,12 +358,12 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Upm-VJ-G6P" userLabel="TIMER1">
-                                <rect key="frame" x="0.0" y="172" width="375" height="97"/>
+                                <rect key="frame" x="0.0" y="217" width="375" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.45138399909999999" blue="0.14232108869999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Cameliaexbold" family="Cameliaexbold" pointSize="22"/>
                                 <state key="normal" title="TIMER">
-                                    <color key="titleColor" red="0.99953407049999998" green="0.98835557699999999" blue="0.47265523669999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" red="1" green="0.45138399909999999" blue="0.14232108869999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="timer1button" destination="WvE-gK-JTm" eventType="touchUpInside" id="o4E-Ty-hn7"/>
@@ -215,7 +371,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dHZ-VK-xNK" userLabel="TIMER3">
-                                <rect key="frame" x="0.0" y="450" width="375" height="97"/>
+                                <rect key="frame" x="0.0" y="487" width="375" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.75028938339999995" green="0.94884872229999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="SummerFont-Light" family="Summer Font" pointSize="53"/>
@@ -227,15 +383,15 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjt-zE-Yrv" userLabel="TIMER4">
-                                <rect key="frame" x="0.0" y="269" width="375" height="97"/>
+                                <rect key="frame" x="0.0" y="307" width="375" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="1" green="0.4392156862745098" blue="0.71764705882352942" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Audrey-Normal" family="Audrey" pointSize="28"/>
                                 <state key="normal" title="TIMER">
-                                    <color key="titleColor" red="1" green="0.4392156862745098" blue="0.71764705882352942" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="EAJ-Sj-mdV" kind="presentation" id="tvX-ek-z8a"/>
+                                    <segue destination="EAJ-Sj-mdV" kind="presentation" id="Pjm-pS-Ywh"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="好きなタイマーを選択して下さい" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZaD-hA-VfA" userLabel="TIMER6">
@@ -246,25 +402,32 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mH3-OI-m61" userLabel="TIMER2">
-                                <rect key="frame" x="0.0" y="570" width="375" height="97"/>
+                                <rect key="frame" x="0.0" y="577" width="375" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.84792380140000001" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 <state key="normal" title="TIMER">
                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="timer2button" destination="WvE-gK-JTm" eventType="touchUpInside" id="2CP-Xl-pzK"/>
-                                    <segue destination="xpM-ud-yU4" kind="presentation" id="qsn-lQ-r3Q"/>
+                                    <segue destination="xpM-ud-yU4" kind="presentation" id="d8v-y2-hLh"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j76-gT-YUZ" userLabel="TIMER5">
-                                <rect key="frame" x="0.0" y="354" width="375" height="97"/>
+                                <rect key="frame" x="0.0" y="397" width="375" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <color key="backgroundColor" red="1" green="0.96862745098039216" blue="0.75294117647058822" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="NexaBold" family="Nexa Bold" pointSize="29"/>
+                                <state key="normal" title="TIMER">
+                                    <color key="titleColor" red="0.40000000000000002" green="0.6705882353" blue="0.54901960780000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="9Qw-JO-mRy" kind="presentation" id="3iF-Jp-d7E"/>
+                                </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="0.95791926760000001" blue="0.84802228820000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.8980392157" green="1" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="xqO-5M-2vg"/>
                     </view>
                     <connections>
@@ -273,7 +436,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="I3s-0I-Q30" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="137" y="1372"/>
+            <point key="canvasLocation" x="-1484" y="1333"/>
         </scene>
         <!--PROFILE-->
         <scene sceneID="XW3-1n-zeu">
@@ -375,7 +538,7 @@
                                 <rect key="frame" x="16" y="20" width="117" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="もどる">
+                                <state key="normal" title="HOMEへ">
                                     <color key="titleColor" red="1" green="0.2493130013" blue="0.41430939280000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
@@ -385,7 +548,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G5Z-7P-X6Z">
                                 <rect key="frame" x="83" y="581" width="208" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.25098039215686274" blue="0.41568627450980389" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="1" green="0.2493130013" blue="0.41430939280000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Cameliaexbold" family="Cameliaexbold" pointSize="21"/>
                                 <state key="normal" title="SAVE">
                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -399,7 +562,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="0.92294267330000002" blue="0.98244064050000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="1" green="0.69803921570000005" blue="0.8980392157" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="bG0-zC-vgH"/>
                     </view>
                     <navigationItem key="navigationItem" title="PROFILE" id="Jbm-mL-1cZ">
@@ -423,7 +586,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="E9L-ME-Cof" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2076" y="113.79310344827587"/>
+            <point key="canvasLocation" x="3399" y="-288"/>
         </scene>
         <!--Gender View Controller-->
         <scene sceneID="RaC-7L-Wmi">
@@ -436,24 +599,20 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vrv-NI-rns" userLabel="manButton">
                                 <rect key="frame" x="20" y="310" width="176" height="136"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="CLICK" backgroundImage="MAN.png">
+                                <state key="normal" backgroundImage="MAN.png">
                                     <color key="titleColor" red="0.93060660360000003" green="0.99467188120000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="manButton" destination="axG-vH-zC5" eventType="touchUpInside" id="SNX-gW-M2h"/>
-                                    <action selector="manButton:" destination="BeN-K8-xFq" eventType="touchUpInside" id="34A-bz-p8o"/>
                                     <segue destination="OPO-Jv-n2Y" kind="presentation" id="hyx-jX-y3S"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JOr-by-sQw" userLabel="womanButton">
                                 <rect key="frame" x="204" y="316" width="138" height="116"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="CLICK" backgroundImage="女.png">
+                                <state key="normal" backgroundImage="女.png">
                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="womanButton" destination="axG-vH-zC5" eventType="touchUpInside" id="qkl-36-dTo"/>
-                                    <action selector="womanButton:" destination="BeN-K8-xFq" eventType="touchUpInside" id="bD9-Av-k1B"/>
                                     <segue destination="UkQ-P0-lTD" kind="presentation" id="IgK-QF-XFL"/>
                                 </connections>
                             </button>
@@ -465,15 +624,16 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="0.92294267330000002" blue="0.98244064050000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="1" green="0.69803921570000005" blue="0.8980392157" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="VPZ-Ff-2tM"/>
                     </view>
                     <connections>
                         <outlet property="label" destination="BMd-Ip-i0H" id="gCq-Kw-DcT"/>
+                        <outlet property="manButton" destination="vrv-NI-rns" id="O3V-km-vrg"/>
+                        <outlet property="womanButton" destination="JOr-by-sQw" id="qjy-V6-wmR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qww-J4-TAZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <exit id="BeN-K8-xFq" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="1256.8" y="113.79310344827587"/>
         </scene>
@@ -577,7 +737,7 @@
                                 <rect key="frame" x="16" y="20" width="117" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="もどる">
+                                <state key="normal" title="HOMEへ">
                                     <color key="titleColor" red="0.0" green="0.62745098039215685" blue="0.9137254901960784" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
@@ -601,7 +761,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="0.93060660360000003" green="0.99467188120000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.69803921570000005" green="0.8980392157" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="CAD-wM-pa7"/>
                     </view>
                     <navigationItem key="navigationItem" title="PROFILE" id="Vhp-8i-2Aa">
@@ -610,20 +770,10 @@
                     <connections>
                         <outlet property="age2Label" destination="arC-ch-8P1" id="pVs-0e-9Lx"/>
                         <outlet property="age2textField" destination="Sxk-cs-1pg" id="4gY-NS-ENk"/>
-                        <outlet property="ageLabel" destination="arC-ch-8P1" id="8PE-5u-wxp"/>
-                        <outlet property="agetextField" destination="Sxk-cs-1pg" id="0rP-OQ-9ob"/>
-                        <outlet property="food1textField" destination="NLp-ZS-bcM" id="Mu9-FS-A23"/>
-                        <outlet property="food2textField" destination="FIi-aw-cWU" id="78J-ph-xuw"/>
-                        <outlet property="food3textField" destination="l1s-Q8-OU5" id="J1g-f4-Od0"/>
-                        <outlet property="foodLabel" destination="91e-PU-GyC" id="7gn-3W-Efp"/>
                         <outlet property="height2Label" destination="kPe-Yf-Que" id="Yk4-zS-dsz"/>
                         <outlet property="height2textFiled" destination="Xpq-L9-vwv" id="bKy-qm-Cr7"/>
-                        <outlet property="heightLabel" destination="kPe-Yf-Que" id="SEl-BK-h5g"/>
-                        <outlet property="heighttextFiled" destination="Xpq-L9-vwv" id="MDW-Tq-i95"/>
                         <outlet property="modoru2button" destination="0VV-ed-7PW" id="gdW-JA-1xW"/>
-                        <outlet property="modorubutton" destination="0VV-ed-7PW" id="xjO-21-fjX"/>
                         <outlet property="ningen2ImageView" destination="ATB-3b-bXk" id="Kb3-F1-Tx1"/>
-                        <outlet property="ningenImageView" destination="ATB-3b-bXk" id="7tr-Z2-acr"/>
                         <outlet property="savebutton" destination="ivg-hK-cq6" id="QM3-t4-2vr"/>
                         <outlet property="tabemono1textField" destination="NLp-ZS-bcM" id="hvO-W7-ubW"/>
                         <outlet property="tabemono2textField" destination="FIi-aw-cWU" id="y6q-p7-FoF"/>
@@ -631,13 +781,11 @@
                         <outlet property="tabemonoLabel" destination="91e-PU-GyC" id="TIw-5h-xD4"/>
                         <outlet property="weight2Label" destination="Rzk-RD-CXy" id="Ufz-g5-mNM"/>
                         <outlet property="weight2textField" destination="8eH-VC-6y9" id="CqJ-bR-I7I"/>
-                        <outlet property="weightLabel" destination="Rzk-RD-CXy" id="RPL-vX-Sfw"/>
-                        <outlet property="weighttextField" destination="8eH-VC-6y9" id="3hR-qM-cAP"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vd5-UV-IGV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2793" y="114"/>
+            <point key="canvasLocation" x="3438" y="519"/>
         </scene>
         <!--Timer2 View Controller-->
         <scene sceneID="QX4-bI-3RG">
@@ -648,12 +796,12 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RBU-KQ-giC" userLabel="PauseButton">
-                                <rect key="frame" x="148" y="380" width="80" height="80"/>
+                                <rect key="frame" x="148" y="386" width="80" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="PAUSE">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="0.84792380140000001" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -662,55 +810,44 @@
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="hasPauseButtonPressed:" destination="xpM-ud-yU4" eventType="touchUpInside" id="9qP-Qv-slq"/>
+                                    <action selector="hasPauseButtonPressed:" destination="xpM-ud-yU4" eventType="touchUpInside" id="fty-Im-giP"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uo8-6b-4sU" userLabel="MinutesLabel">
-                                <rect key="frame" x="81" y="201" width="91" height="77"/>
+                                <rect key="frame" x="81" y="216" width="91" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
-                                <color key="textColor" red="0.11372549019607843" green="0.11372549019607843" blue="0.11372549019607843" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="57"/>
+                                <color key="textColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=":" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AoA-12-hu5">
-                                <rect key="frame" x="157" y="201" width="62" height="77"/>
+                                <rect key="frame" x="157" y="216" width="62" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Cameliaexbold" family="Cameliaexbold" pointSize="22"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sr3-ww-qcl">
-                                <rect key="frame" x="250" y="44" width="109" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="HOMEへ">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="0.84792380140000001" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="presentation" id="ExI-Ve-9gy"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="MINUTES" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I5L-MC-kIn">
-                                <rect key="frame" x="67" y="169" width="119" height="21"/>
+                                <rect key="frame" x="67" y="181" width="119" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SECONDS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bMl-pu-oOg">
-                                <rect key="frame" x="187" y="169" width="123" height="21"/>
+                                <rect key="frame" x="187" y="181" width="123" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Asa-fj-Fsx" userLabel="StopButton">
-                                <rect key="frame" x="254" y="380" width="80" height="80"/>
+                                <rect key="frame" x="254" y="386" width="80" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.84792380140000001" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="STOP">
-                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
@@ -719,23 +856,23 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="hasStopButtonPressed:" destination="xpM-ud-yU4" eventType="touchUpInside" id="7MP-4a-1j0"/>
+                                    <action selector="hasStopButtonPressed:" destination="xpM-ud-yU4" eventType="touchUpInside" id="7aI-g9-l0U"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tg6-mk-gHL" userLabel="SecondsLabel">
-                                <rect key="frame" x="203" y="201" width="92" height="77"/>
+                                <rect key="frame" x="203" y="216" width="92" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="57"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O9c-LK-SKL" userLabel="StartButton">
-                                <rect key="frame" x="45" y="380" width="80" height="80"/>
+                                <rect key="frame" x="45" y="386" width="80" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.11372549019607843" green="0.11372549019607843" blue="0.11372549019607843" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="START">
-                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -744,18 +881,39 @@
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="hasStartButtonPressed:" destination="xpM-ud-yU4" eventType="touchUpInside" id="Aer-8k-0gM"/>
+                                    <action selector="hasStartButtonPressed:" destination="xpM-ud-yU4" eventType="touchUpInside" id="EVv-uX-2jK"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TQs-Ag-Xyh">
-                                <rect key="frame" x="16" y="44" width="109" height="40"/>
+                                <rect key="frame" x="16" y="52" width="109" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="もどる">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="0.84792380140000001" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <segue destination="WvE-gK-JTm" kind="presentation" id="HZx-Dz-osq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sr3-ww-qcl">
+                                <rect key="frame" x="250" y="52" width="109" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="HOMEへ">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" id="ExI-Ve-9gy"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -763,12 +921,13 @@
                         <viewLayoutGuide key="safeArea" id="bqK-gp-UC2"/>
                     </view>
                     <connections>
-                        <outlet property="minutesLabel" destination="uo8-6b-4sU" id="7Y1-tr-cRS"/>
-                        <outlet property="modoruButton" destination="TQs-Ag-Xyh" id="nBB-1j-KHR"/>
-                        <outlet property="pauseButton" destination="RBU-KQ-giC" id="ckq-eG-k1q"/>
-                        <outlet property="secondsLabel" destination="Tg6-mk-gHL" id="Utn-HW-XrH"/>
-                        <outlet property="startButton" destination="O9c-LK-SKL" id="j7L-mk-XsK"/>
-                        <outlet property="stopButton" destination="Asa-fj-Fsx" id="TWj-0y-Q4Q"/>
+                        <outlet property="homeButton" destination="Sr3-ww-qcl" id="nwE-vm-jt6"/>
+                        <outlet property="minutesLabel" destination="uo8-6b-4sU" id="ZaJ-uW-xl7"/>
+                        <outlet property="modoruButton" destination="TQs-Ag-Xyh" id="eGQ-I5-5Wx"/>
+                        <outlet property="pauseButton" destination="RBU-KQ-giC" id="8BD-Fr-o9c"/>
+                        <outlet property="secondsLabel" destination="Tg6-mk-gHL" id="MwM-Ba-Zg0"/>
+                        <outlet property="startButton" destination="O9c-LK-SKL" id="nOt-Ya-dxS"/>
+                        <outlet property="stopButton" destination="Asa-fj-Fsx" id="6Fo-RN-clR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="imM-xA-kPg" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -822,6 +981,11 @@
                                 <state key="normal" title="もどる">
                                     <color key="titleColor" red="0.22352941176470587" green="0.43137254901960786" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <segue destination="WvE-gK-JTm" kind="presentation" id="1PV-Su-R47"/>
                                 </connections>
@@ -872,6 +1036,11 @@
                                 <state key="normal" title="HOMEへ">
                                     <color key="titleColor" red="0.22352941176470587" green="0.43137254901960786" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="presentation" id="AY0-3M-Qs6"/>
                                 </connections>
@@ -914,7 +1083,7 @@
         <!--Timer4 View Controller-->
         <scene sceneID="4Ax-KW-Woa">
             <objects>
-                <viewController id="EAJ-Sj-mdV" customClass="Timer4ViewController" sceneMemberID="viewController">
+                <viewController id="EAJ-Sj-mdV" customClass="timer4ViewController" customModule="stretch_timer" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qGJ-vk-3Ib" customClass="Timer4ViewController">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -928,7 +1097,7 @@
                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="hasPauseButtonPressed:" destination="EAJ-Sj-mdV" eventType="touchUpInside" id="61a-ca-39W"/>
+                                    <action selector="hasPauseButtonPressed:" destination="EAJ-Sj-mdV" eventType="touchUpInside" id="xmH-Ps-Bup"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sjn-Za-buj" userLabel="MinutesLabel">
@@ -953,7 +1122,7 @@
                                     <color key="titleColor" red="1" green="0.4392156862745098" blue="0.71764705882352942" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="WvE-gK-JTm" kind="presentation" id="QXH-bQ-0zn"/>
+                                    <segue destination="WvE-gK-JTm" kind="presentation" id="hZR-S8-GiV"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="MINUTES" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k8n-I9-yNR">
@@ -986,7 +1155,7 @@
                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="hasStartButtonPressed:" destination="EAJ-Sj-mdV" eventType="touchUpInside" id="jm4-P0-XWk"/>
+                                    <action selector="hasStartButtonPressed:" destination="EAJ-Sj-mdV" eventType="touchUpInside" id="JmH-1H-XUM"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bj1-uW-wF6" userLabel="StopButton">
@@ -998,7 +1167,7 @@
                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="hasStopButtonPressed:" destination="EAJ-Sj-mdV" eventType="touchUpInside" id="jUg-W3-b3f"/>
+                                    <action selector="hasStopButtonPressed:" destination="EAJ-Sj-mdV" eventType="touchUpInside" id="hiQ-in-Svs"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q7E-4Y-RLQ">
@@ -1009,7 +1178,7 @@
                                     <color key="titleColor" red="1" green="0.4392156862745098" blue="0.71764705882352942" alpha="0.84792380140000001" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="presentation" id="4rP-Pr-NQF"/>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" id="8Lk-ii-haS"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1017,12 +1186,12 @@
                         <viewLayoutGuide key="safeArea" id="dkQ-Ya-UAl"/>
                     </view>
                     <connections>
-                        <outlet property="minutesLabel" destination="sjn-Za-buj" id="WpS-iX-dXy"/>
-                        <outlet property="modoruButton" destination="4BW-K7-NhS" id="XrC-qU-PS1"/>
-                        <outlet property="pauseButton" destination="IUn-Px-eBw" id="fab-iA-vJv"/>
-                        <outlet property="secondsLabel" destination="YmT-pE-GUX" id="Dci-GB-WLg"/>
-                        <outlet property="startButton" destination="J91-B9-qjV" id="LTG-kE-tmE"/>
-                        <outlet property="stopButton" destination="bj1-uW-wF6" id="l8d-3C-wYx"/>
+                        <outlet property="minutesLabel" destination="sjn-Za-buj" id="E3c-Bl-73m"/>
+                        <outlet property="modoruButton" destination="4BW-K7-NhS" id="Q72-AF-Emk"/>
+                        <outlet property="pauseButton" destination="IUn-Px-eBw" id="iOj-HT-zZO"/>
+                        <outlet property="secondsLabel" destination="YmT-pE-GUX" id="Pvg-N3-GsO"/>
+                        <outlet property="startButton" destination="J91-B9-qjV" id="Plz-jd-8Rz"/>
+                        <outlet property="stopButton" destination="bj1-uW-wF6" id="EEZ-VR-KOU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BD2-IF-D6f" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1038,7 +1207,7 @@
         <image name="女.png" width="2133" height="2133"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="QXH-bQ-0zn"/>
-        <segue reference="4rP-Pr-NQF"/>
+        <segue reference="WD4-Ua-AEW"/>
+        <segue reference="DMV-Qt-h0Q"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -10,7 +10,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "stretch timer/TimerViewController.swift"
-            timestampString = "547803311.891589"
+            timestampString = "547984697.263635"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "98"
@@ -26,7 +26,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "stretch timer/TimerViewController.swift"
-            timestampString = "547803311.9039201"
+            timestampString = "547984697.269755"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "98"
@@ -42,7 +42,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "stretch timer/TimerViewController.swift"
-            timestampString = "547803311.904771"
+            timestampString = "547984697.270254"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "98"
@@ -58,7 +58,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "stretch timer/TimerViewController.swift"
-            timestampString = "547803311.905542"
+            timestampString = "547984697.270503"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "98"
@@ -74,7 +74,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "stretch timer/TimerViewController.swift"
-            timestampString = "547803311.906304"
+            timestampString = "547984697.270774"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "98"
@@ -90,7 +90,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "stretch timer/TimerViewController.swift"
-            timestampString = "547803311.909907"
+            timestampString = "547984697.2710609"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "98"
@@ -106,7 +106,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "stretch timer/TimerViewController.swift"
-            timestampString = "547803311.9146219"
+            timestampString = "547984697.2713391"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "98"
@@ -122,7 +122,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "stretch timer/TimerViewController.swift"
-            timestampString = "547803311.915377"
+            timestampString = "547984697.271733"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "98"
@@ -138,7 +138,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "stretch timer/TimerViewController.swift"
-            timestampString = "547803311.916008"
+            timestampString = "547984697.272016"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "98"
@@ -154,13 +154,91 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "stretch timer/TimerViewController.swift"
-            timestampString = "547803311.916683"
+            timestampString = "547984697.272262"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "98"
             endingLineNumber = "98"
             landmarkName = "TimerViewController"
             landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "stretch timer/timer4ViewController.swift"
+            timestampString = "547984697.272735"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "timer4ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "stretch_timer.timer4ViewController.minutesLabel.getter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UILabel&gt;"
+                  moduleName = "stretch timer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rimika/stretch%20timer/stretch%20timer/timer4ViewController.swift"
+                  timestampString = "547975811.592711"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "79">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "stretch_timer.timer4ViewController.minutesLabel.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UILabel&gt;"
+                  moduleName = "stretch timer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rimika/stretch%20timer/stretch%20timer/timer4ViewController.swift"
+                  timestampString = "547975811.637435"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "86">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "stretch_timer.timer4ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; stretch_timer.timer4ViewController"
+                  moduleName = "stretch timer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rimika/stretch%20timer/stretch%20timer/timer4ViewController.swift"
+                  timestampString = "547975811.641392"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "299">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "stretch_timer.timer4ViewController.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;stretch_timer.timer4ViewController&gt;"
+                  moduleName = "stretch timer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rimika/stretch%20timer/stretch%20timer/timer4ViewController.swift"
+                  timestampString = "547975811.644972"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "244">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
