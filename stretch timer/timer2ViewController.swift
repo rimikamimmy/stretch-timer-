@@ -44,7 +44,6 @@ class timer2ViewController: UIViewController {
     }
     
     
-    
     @IBAction func hasStopButtonPressed(_ sender: Any) {
         
         pauseButton.isHidden = false
