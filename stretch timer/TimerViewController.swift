@@ -21,8 +21,6 @@ class TimerViewController: UIViewController {
     @IBOutlet weak var stopButton: UIButton!
     @IBOutlet weak var modoruButton: UIButton!
     
-    
-    
     @IBAction func hasPauseButtonPressed(_ sender: Any) {
         startButton.isHidden = false
         pauseButton.isHidden = false

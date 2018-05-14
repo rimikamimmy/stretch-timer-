@@ -13,7 +13,6 @@ class timer3ViewController: UIViewController {
     var StopWatchTimer = Timer()
     var currentTime = 0
     
-    
     @IBOutlet weak var minutesLabel: UILabel!
     @IBOutlet weak var secondsLabel: UILabel!
     @IBOutlet weak var pauseButton: UIButton!
