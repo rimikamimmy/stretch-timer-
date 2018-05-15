@@ -113,10 +113,19 @@ class Profile2ViewController: UIViewController {
             style: .default,
             handler: nil
         ))
+//
+//        @IBAction func back() {
+//            //        self.dismiss(animated: true, completion: nil)
+//            self.presentingViewController?.presentingViewController?.dismiss(animated: true, completion: nil)
+//        }
+    }
+            @IBAction func back() {
+                self.presentingViewController?.presentingViewController?.dismiss(animated: true, completion: nil)
+             
+        }
 
-    
 
-        func didReceiveMemoryWarning() {
+    override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         
         func textFieldShouldReturn(_ textField: UITextField) -> Bool {
@@ -140,4 +149,4 @@ class Profile2ViewController: UIViewController {
     */
 
 }
-}
+

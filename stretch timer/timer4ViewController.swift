@@ -23,6 +23,16 @@ class timer4ViewController: UIViewController {
     @IBOutlet weak var modoruButton: UIButton!
     
     
+    @IBAction func back() {
+        //        self.dismiss(animated: true, completion: nil)
+        self.presentingViewController?.presentingViewController?.dismiss(animated: true, completion: nil)
+    }
+
+    @IBAction func back1() {
+         self.dismiss(animated: true, completion: nil)
+    }
+    
+    
     @IBAction func hasPauseButtonPressed(_ sender: Any) {
         startButton.isHidden = false
         pauseButton.isHidden = false
@@ -67,13 +77,22 @@ class timer4ViewController: UIViewController {
         
     
     
-    
+        
         func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
 
+//        @IBAction func back() {
+//            //        self.dismiss(animated: true, completion: nil)
+//            self.presentingViewController?.presentingViewController?.dismiss(animated: true, completion: nil)
+//        }
+        
+      
+
+        
+        
         func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
