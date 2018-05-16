@@ -279,11 +279,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jpe-8v-rUh" userLabel="PauseButton">
-                                <rect key="frame" x="167" y="436" width="80" height="80"/>
+                                <rect key="frame" x="167" y="328" width="84" height="80"/>
                                 <color key="backgroundColor" red="0.98039215690000003" green="0.48627450979999998" blue="0.57254901960000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="80" id="7gt-zQ-9gO"/>
-                                    <constraint firstAttribute="height" constant="80" id="mM8-63-luE"/>
+                                    <constraint firstAttribute="width" constant="84" id="eR0-ln-eJJ"/>
+                                    <constraint firstAttribute="height" constant="80" id="hq4-Aa-WsJ"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="NexaBold" family="Nexa Bold" pointSize="22"/>
                                 <state key="normal" title="PAUSE">
@@ -299,12 +299,6 @@
                                     <action selector="hasPauseButtonPressed:" destination="9Qw-JO-mRy" eventType="touchUpInside" id="ZV4-gc-a2L"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=":" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zEA-hj-oLU">
-                                <rect key="frame" x="203" y="271" width="10" height="40"/>
-                                <fontDescription key="fontDescription" name="NexaBold" family="Nexa Bold" pointSize="40"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qmc-cQ-C4O">
                                 <rect key="frame" x="17" y="42" width="109" height="40"/>
                                 <color key="backgroundColor" red="0.74509803921568629" green="1" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -344,38 +338,52 @@
                                     <action selector="back" destination="9Qw-JO-mRy" eventType="touchUpInside" id="Qsj-2c-5Uy"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="DECIMAL" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1n8-dZ-TPU">
-                                <rect key="frame" x="252" y="188" width="78" height="18"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" SECONDS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UU3-23-6SK">
+                                <rect key="frame" x="74" y="188" width="104" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="18" id="Emo-cA-i3O"/>
+                                    <constraint firstAttribute="width" constant="104" id="oxf-Tt-6gn"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="NexaLight" family="Nexa Light" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="DECIMAL" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1n8-dZ-TPU">
+                                <rect key="frame" x="250" y="188" width="83" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="18" id="Pq9-Dk-gu2"/>
+                                    <constraint firstAttribute="width" constant="83" id="b2a-QT-szz"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="NexaLight" family="Nexa Light" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nJx-P9-Q9O" userLabel="SecondsLabel">
-                                <rect key="frame" x="272" y="246" width="37" height="53"/>
+                                <rect key="frame" x="231" y="246" width="102" height="53"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="53" id="Exp-kS-ymL"/>
-                                    <constraint firstAttribute="width" constant="37" id="UIu-07-LMb"/>
+                                    <constraint firstAttribute="height" constant="53" id="8SU-ox-Buy"/>
+                                    <constraint firstAttribute="width" constant="102" id="zNQ-er-ONP"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="NexaBold" family="Nexa Bold" pointSize="53"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Bh-yL-1nC" userLabel="MinutesLabel">
-                                <rect key="frame" x="81" y="246" width="91" height="53"/>
+                                <rect key="frame" x="94" y="246" width="65" height="53"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="53" id="9Xs-9N-feG"/>
-                                    <constraint firstAttribute="width" constant="91" id="RXx-vp-Cm8"/>
+                                    <constraint firstAttribute="height" constant="53" id="48p-wL-IE5"/>
+                                    <constraint firstAttribute="width" constant="65" id="EmX-T5-VeX"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="NexaBold" family="Nexa Bold" pointSize="53"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BFC-Tb-LrP" userLabel="StartButton">
-                                <rect key="frame" x="55" y="436" width="80" height="80"/>
+                                <rect key="frame" x="79" y="328" width="80" height="80"/>
                                 <color key="backgroundColor" red="0.98039215686274506" green="0.48627450980392156" blue="0.5725490196078431" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="80" id="SR3-Yw-X6D"/>
-                                    <constraint firstAttribute="height" constant="80" id="YPP-yk-9hl"/>
+                                    <constraint firstAttribute="width" constant="80" id="ZJP-Na-bAg"/>
+                                    <constraint firstAttribute="height" constant="80" id="wcw-r5-VgW"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="NexaBold" family="Nexa Bold" pointSize="22"/>
                                 <state key="normal" title="START">
@@ -392,11 +400,11 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Xv-uQ-Nug" userLabel="StopButton">
-                                <rect key="frame" x="272" y="436" width="80" height="78"/>
+                                <rect key="frame" x="259" y="328" width="76" height="80"/>
                                 <color key="backgroundColor" red="0.98039215690000003" green="0.48627450979999998" blue="0.57254901960000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="80" id="94e-fB-chD"/>
-                                    <constraint firstAttribute="height" constant="78" id="UjG-Hg-IOv"/>
+                                    <constraint firstAttribute="width" constant="76" id="5Zz-r3-VRw"/>
+                                    <constraint firstAttribute="height" constant="80" id="7LF-UZ-BMT"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="NexaBold" family="Nexa Bold" pointSize="22"/>
                                 <state key="normal" title="STOP">
@@ -412,41 +420,44 @@
                                     <action selector="hasStopButtonPressed:" destination="9Qw-JO-mRy" eventType="touchUpInside" id="TD3-Dd-POl"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text=" SECONDS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UU3-23-6SK">
-                                <rect key="frame" x="78" y="188" width="96" height="18"/>
-                                <fontDescription key="fontDescription" name="NexaLight" family="Nexa Light" pointSize="18"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=":" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zEA-hj-oLU">
+                                <rect key="frame" x="202" y="252" width="10" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="10" id="wPy-xP-1gg"/>
+                                    <constraint firstAttribute="height" constant="40" id="yMo-3m-wo4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="NexaBold" family="Nexa Bold" pointSize="40"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.89803921568627454" blue="0.81568627450980391" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="BFC-Tb-LrP" firstAttribute="leading" secondItem="Gjm-Re-QlM" secondAttribute="leading" constant="55" id="0Di-DS-5hu"/>
                             <constraint firstItem="Gjm-Re-QlM" firstAttribute="trailing" secondItem="1n8-dZ-TPU" secondAttribute="trailing" constant="80.329999999999998" id="5K9-g1-WHg"/>
+                            <constraint firstItem="zEA-hj-oLU" firstAttribute="leading" secondItem="0Bh-yL-1nC" secondAttribute="trailing" constant="43" id="5XI-RV-3ag"/>
+                            <constraint firstItem="2Xv-uQ-Nug" firstAttribute="leading" secondItem="jpe-8v-rUh" secondAttribute="trailing" constant="8" id="5fM-aa-zQ0"/>
+                            <constraint firstItem="UU3-23-6SK" firstAttribute="leading" secondItem="Gjm-Re-QlM" secondAttribute="leading" constant="74" id="6H5-rb-Rrx"/>
+                            <constraint firstItem="Gjm-Re-QlM" firstAttribute="trailing" secondItem="nJx-P9-Q9O" secondAttribute="trailing" constant="81" id="AI3-cn-z5u"/>
                             <constraint firstItem="BIo-Ek-xTj" firstAttribute="top" secondItem="Gjm-Re-QlM" secondAttribute="top" constant="21" id="EOk-oJ-CU2"/>
-                            <constraint firstItem="Gjm-Re-QlM" firstAttribute="bottom" secondItem="BFC-Tb-LrP" secondAttribute="bottom" constant="220" id="Eg9-pC-kZb"/>
-                            <constraint firstItem="jpe-8v-rUh" firstAttribute="leading" secondItem="BFC-Tb-LrP" secondAttribute="trailing" constant="32" id="FBT-30-4Mt"/>
-                            <constraint firstItem="2Xv-uQ-Nug" firstAttribute="leading" secondItem="jpe-8v-rUh" secondAttribute="trailing" constant="25" id="FPr-Vg-w8T"/>
-                            <constraint firstItem="2Xv-uQ-Nug" firstAttribute="leading" secondItem="jpe-8v-rUh" secondAttribute="trailing" constant="25" id="JP2-Tc-eC0"/>
+                            <constraint firstItem="jpe-8v-rUh" firstAttribute="centerY" secondItem="jTz-NW-P4g" secondAttribute="centerY" id="GHd-jK-tcT"/>
                             <constraint firstItem="qmc-cQ-C4O" firstAttribute="leading" secondItem="Gjm-Re-QlM" secondAttribute="leading" constant="17" id="KeT-hX-P9D"/>
-                            <constraint firstItem="Gjm-Re-QlM" firstAttribute="bottom" secondItem="jpe-8v-rUh" secondAttribute="bottom" constant="220" id="U9b-Cj-Oz0"/>
-                            <constraint firstItem="zEA-hj-oLU" firstAttribute="leading" secondItem="0Bh-yL-1nC" secondAttribute="trailing" constant="31" id="UWQ-F6-331"/>
-                            <constraint firstItem="0Bh-yL-1nC" firstAttribute="top" secondItem="UU3-23-6SK" secondAttribute="bottom" constant="42" id="VHf-mA-6hA"/>
+                            <constraint firstItem="jpe-8v-rUh" firstAttribute="leading" secondItem="BFC-Tb-LrP" secondAttribute="trailing" constant="8" id="LeC-30-cdD"/>
+                            <constraint firstItem="nJx-P9-Q9O" firstAttribute="leading" secondItem="zEA-hj-oLU" secondAttribute="trailing" constant="19" id="RMs-7d-SAX"/>
                             <constraint firstItem="1n8-dZ-TPU" firstAttribute="top" secondItem="BIo-Ek-xTj" secondAttribute="bottom" constant="107" id="Wwi-m6-7X7"/>
-                            <constraint firstItem="Gjm-Re-QlM" firstAttribute="bottom" secondItem="2Xv-uQ-Nug" secondAttribute="bottom" constant="222" id="Xfi-Jn-gss"/>
-                            <constraint firstItem="Gjm-Re-QlM" firstAttribute="trailing" secondItem="nJx-P9-Q9O" secondAttribute="trailing" constant="105" id="Zi4-4C-Caa"/>
-                            <constraint firstItem="UU3-23-6SK" firstAttribute="top" secondItem="qmc-cQ-C4O" secondAttribute="bottom" constant="104" id="aRL-VB-UAq"/>
-                            <constraint firstItem="jpe-8v-rUh" firstAttribute="leading" secondItem="BFC-Tb-LrP" secondAttribute="trailing" constant="32" id="f9u-Tg-pny"/>
-                            <constraint firstItem="0Bh-yL-1nC" firstAttribute="leading" secondItem="Gjm-Re-QlM" secondAttribute="leading" constant="81" id="jFT-ud-yyd"/>
-                            <constraint firstItem="UU3-23-6SK" firstAttribute="leading" secondItem="Gjm-Re-QlM" secondAttribute="leading" constant="88" id="n7e-0i-Nuz"/>
-                            <constraint firstItem="1n8-dZ-TPU" firstAttribute="leading" secondItem="UU3-23-6SK" secondAttribute="trailing" constant="81.670000000000002" id="owo-Iv-zyp"/>
-                            <constraint firstItem="jpe-8v-rUh" firstAttribute="top" secondItem="zEA-hj-oLU" secondAttribute="bottom" constant="125" id="qlF-k6-zx1"/>
-                            <constraint firstItem="1n8-dZ-TPU" firstAttribute="leading" secondItem="UU3-23-6SK" secondAttribute="trailing" constant="81.670000000000002" id="qoY-3b-uEB"/>
-                            <constraint firstItem="Gjm-Re-QlM" firstAttribute="trailing" secondItem="2Xv-uQ-Nug" secondAttribute="trailing" constant="62" id="sHy-Nh-DLV"/>
-                            <constraint firstItem="nJx-P9-Q9O" firstAttribute="top" secondItem="1n8-dZ-TPU" secondAttribute="bottom" constant="40" id="sI0-JJ-suW"/>
+                            <constraint firstItem="0Bh-yL-1nC" firstAttribute="top" secondItem="UU3-23-6SK" secondAttribute="bottom" constant="40" id="Yey-o2-xq5"/>
+                            <constraint firstItem="1n8-dZ-TPU" firstAttribute="top" secondItem="BIo-Ek-xTj" secondAttribute="bottom" constant="107" id="afP-60-0Pw"/>
+                            <constraint firstItem="BFC-Tb-LrP" firstAttribute="leading" secondItem="Gjm-Re-QlM" secondAttribute="leading" constant="79" id="cTD-CP-1JA"/>
+                            <constraint firstItem="UU3-23-6SK" firstAttribute="top" secondItem="qmc-cQ-C4O" secondAttribute="bottom" constant="106" id="dZs-99-sxa"/>
+                            <constraint firstItem="2Xv-uQ-Nug" firstAttribute="centerY" secondItem="jTz-NW-P4g" secondAttribute="centerY" id="ghj-e6-AEt"/>
+                            <constraint firstItem="zEA-hj-oLU" firstAttribute="top" secondItem="Gjm-Re-QlM" secondAttribute="top" constant="232" id="i13-dI-Ikc"/>
+                            <constraint firstItem="nJx-P9-Q9O" firstAttribute="top" secondItem="1n8-dZ-TPU" secondAttribute="bottom" constant="40" id="l7X-MU-iAp"/>
+                            <constraint firstItem="Gjm-Re-QlM" firstAttribute="trailing" secondItem="2Xv-uQ-Nug" secondAttribute="trailing" constant="79" id="lV0-ai-et3"/>
+                            <constraint firstItem="Gjm-Re-QlM" firstAttribute="trailing" secondItem="1n8-dZ-TPU" secondAttribute="trailing" constant="81" id="oty-9d-CMG"/>
                             <constraint firstItem="qmc-cQ-C4O" firstAttribute="top" secondItem="Gjm-Re-QlM" secondAttribute="top" constant="22" id="uIR-H0-n7j"/>
-                            <constraint firstItem="0Bh-yL-1nC" firstAttribute="top" secondItem="UU3-23-6SK" secondAttribute="bottom" constant="42" id="ueT-qz-oQN"/>
+                            <constraint firstItem="0Bh-yL-1nC" firstAttribute="leading" secondItem="Gjm-Re-QlM" secondAttribute="leading" constant="94" id="wzK-JX-Q4w"/>
+                            <constraint firstItem="BFC-Tb-LrP" firstAttribute="centerY" secondItem="jTz-NW-P4g" secondAttribute="centerY" id="xV8-FF-ndN"/>
                             <constraint firstItem="Gjm-Re-QlM" firstAttribute="trailing" secondItem="BIo-Ek-xTj" secondAttribute="trailing" constant="20" id="xjR-sI-Qgp"/>
+                            <constraint firstItem="jpe-8v-rUh" firstAttribute="top" secondItem="zEA-hj-oLU" secondAttribute="bottom" constant="36" id="yZ8-UT-Iht"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Gjm-Re-QlM"/>
                         <userDefinedRuntimeAttributes>
